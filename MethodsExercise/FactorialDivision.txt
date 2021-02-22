@@ -1,0 +1,38 @@
+using System;
+
+namespace FactorialDivision
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            double numOne = double.Parse(Console.ReadLine());
+            double numTwo = double.Parse(Console.ReadLine());
+
+            Factorial(numOne, numTwo);
+        }
+
+        private static void Factorial(double numOne, double numTwo)
+        {
+            double factOne = numOne;
+            for (double i = 1; i < numOne; i++)
+            {
+                factOne *= i;
+            }
+
+            double factTwo = numTwo;
+            for (double i = 1; i < numTwo; i++)
+            {
+                factTwo *= i;
+            }
+
+            Division(factOne, factTwo);
+        }
+
+        private static void Division(double factOne, double factTwo)
+        {
+            double result = factOne / factTwo;
+            Console.WriteLine($"{result:F2}");
+        }
+    }
+}
