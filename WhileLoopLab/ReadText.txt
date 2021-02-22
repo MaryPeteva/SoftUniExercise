@@ -1,0 +1,17 @@
+using System;
+
+namespace ReadText
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            string txt = Console.ReadLine();
+            while(txt != "Stop")
+            {
+                Console.WriteLine(txt);
+                txt = Console.ReadLine();
+            }
+        }
+    }
+}

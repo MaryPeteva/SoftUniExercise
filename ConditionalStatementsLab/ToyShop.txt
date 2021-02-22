@@ -1,0 +1,65 @@
+using System;
+
+
+class Program
+{
+    static void Main()
+    {
+        double tourPrice = double.Parse(Console.ReadLine());
+        int puzzle = int.Parse(Console.ReadLine());
+        int sayDoll = int.Parse(Console.ReadLine());
+        int teddyBears = int.Parse(Console.ReadLine());
+        int minions = int.Parse(Console.ReadLine());
+        int tracks = int.Parse(Console.ReadLine());
+
+        double puzzlePrice = 2.60;
+        double sayDollPrice = 3;
+        double teddyBearsPrice = 4.10;
+        double minionsPrice = 8.20;
+        double tracksPrice = 2;
+
+        //обща сума
+        double sum = puzzle * puzzlePrice + sayDoll * sayDollPrice + teddyBears * teddyBearsPrice + minions * minionsPrice + tracks * tracksPrice;
+        // брой играчки
+        double ordertoys = puzzle + sayDoll + teddyBears + minions + tracks;
+
+
+        if (ordertoys >= 50)
+        {
+
+            // крайна цена
+            double finalPrice = sum - (sum * 0.25);
+            //печалба
+            double win = finalPrice - (finalPrice * 0.10);
+
+            if (win >= tourPrice)
+            {
+
+                double rentMoney = win - tourPrice;
+                Console.WriteLine($"Yes! {rentMoney:F2} lv left.");
+            }
+            else
+            {
+                double moneyNeeded = tourPrice - win;
+                Console.WriteLine($"Not enough money! {moneyNeeded:F2} lv needed.");
+            }
+        }
+        else
+        {
+            double win = sum - (sum * 0.10);
+            if (win >= tourPrice)
+            {
+                double rentMoney = win - tourPrice;
+                Console.WriteLine($"Yes! {rentMoney:F2} lv left.");
+            }
+            else
+            {
+                double moneyNeeded = tourPrice - win;
+                Console.WriteLine($"Not enough money! {moneyNeeded:F2} lv needed.");
+            }
+        }
+
+
+
+    }
+}f

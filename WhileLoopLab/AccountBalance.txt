@@ -1,0 +1,31 @@
+using System;
+
+namespace AccountBalance
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            string input = Console.ReadLine();
+            double bankAcc = 0.0;
+            while(input != "NoMoreMoney")
+            {
+                double money = double.Parse(input);
+                
+                if (money <= 0.0)
+                {
+                    Console.WriteLine("Invalid operation!");
+                    break;
+                }
+                else
+                {
+                    Console.WriteLine($"Increase: {money:F2}");
+                    bankAcc += money;
+                    input = Console.ReadLine();
+                }
+            }
+
+            Console.WriteLine($"Total: {bankAcc:F2}");
+        }
+    }
+}

@@ -1,0 +1,47 @@
+using System;
+
+namespace EasterBake
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            //брашно и захар.Един пакет захар е 950 грама, а един пакет брашно е 750 грама
+            //намерете кое е най - голямото количество захар и брашно, които са използвани.
+            //enter
+            //Броят на козунаците
+            int easterBread = int.Parse(Console.ReadLine());
+            double sugarCount = 0;
+            double flourCount = 0;
+            int maxSugar = int.MinValue;
+            int maxFlour = int.MinValue;
+            //За всеки козунак се чете:
+            //Количество изразходвана захар(грамове)
+            //Количество изразходвано брашно(грамове)
+            for (int bread = 1; bread <= easterBread; bread++)
+            {
+                int sugar = int.Parse(Console.ReadLine());
+                if (sugar > maxSugar)
+                {
+                    maxSugar = sugar;
+                }
+                int flour = int.Parse(Console.ReadLine());
+                if (flour > maxFlour)
+                {
+                    maxFlour = flour;
+                }
+                sugarCount += sugar;
+                flourCount += flour;
+            }
+            double sugarPack = Math.Ceiling(sugarCount / 950);
+            double flourPack = Math.Ceiling(flourCount / 750);
+            //"Sugar: {брой нужни пакети захар}"
+            //"Flour: {брой нужни пакет брашно}"
+            //"Max used flour is {} grams, max used sugar is {} grams."
+            //Пакетите захар и брашно да бъдат закръглени към най - близкото цяло число нагоре.
+            Console.WriteLine($"Sugar: {sugarPack}");
+            Console.WriteLine($"Flour: {flourPack}");
+            Console.WriteLine($"Max used flour is {maxFlour} grams, max used sugar is {maxSugar} grams.");
+        }
+    }
+}

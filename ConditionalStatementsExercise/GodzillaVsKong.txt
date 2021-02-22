@@ -1,0 +1,51 @@
+using System;
+
+namespace GodzillaVsKong
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            //Ред 1. Бюджет за филма – реално число в интервала [1.00 … 1000000.00]
+            double budget = double.Parse(Console.ReadLine());
+            // Ред 2.Брой на статистите – цяло число в интервала[1 … 500]
+            int extra = int.Parse(Console.ReadLine());
+            //Ред 3.Цена за облекло на един статист – реално число в интервала
+            double extraCostumePrice = double.Parse(Console.ReadLine());
+            double decor = budget * 0.1;
+            double extraCostume = extra * extraCostumePrice;
+            if (extra >= 150)
+            {
+                double extraCostumeDis = extraCostume-(extraCostume *  0.1);
+                double totalBudget = budget - (decor + extraCostumeDis);
+                if (totalBudget >= 0.0)
+                {
+                    Console.WriteLine("Action!");
+                    Console.WriteLine($"Wingard starts filming with {totalBudget:f2} leva left.");
+                }
+                else
+                {
+                    Console.WriteLine("Not enough money!");
+                    Console.WriteLine($"Wingard needs {Math.Abs(totalBudget):f2} leva more.");
+                }
+            }
+            else
+            {
+                double extraCostumeNoDis = extraCostume;
+                double totalBudget2 = budget - (decor + extraCostumeNoDis);
+                if (totalBudget2 >= 0.0)
+                {
+                    Console.WriteLine("Action!");
+                    Console.WriteLine($"Wingard starts filming with {totalBudget2:f2} leva left.");
+                }
+                else
+                {
+                    Console.WriteLine("Not enough money!");
+                    Console.WriteLine($"Wingard needs {Math.Abs(totalBudget2):f2} leva more.");
+                }
+            }
+
+        }
+    }
+}
+f

@@ -1,0 +1,44 @@
+using System;
+
+namespace AreaOfFigures
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            //readsquare, rectangle, circle или triangle
+            string figure = Console.ReadLine();
+            //if square readline a area a*a cw area
+            if ( figure == "square")
+            {
+                double a = double.Parse(Console.ReadLine());
+                double areaSquare = a * a;
+                Console.WriteLine(areaSquare.ToString("F2"));
+            }
+            //if rectangle readline a b area a*b cw area
+            else if ( figure == "rectangle")
+            {
+                double aR = double.Parse(Console.ReadLine());
+                double bR = double.Parse(Console.ReadLine());
+                double areaRectangle = aR * bR;
+                Console.WriteLine(areaRectangle.ToString("F2"));
+            }
+            //if circle  readline r area PI*r*r
+            else if ( figure == "circle")
+            {
+                double r = double.Parse(Console.ReadLine());
+                double areaCircle = Math.PI * r * r;
+                Console.WriteLine(areaCircle.ToString("F2"));
+            }
+            //if triangle a h area a*h
+            else if ( figure == "triangle")
+            {
+                double aT = double.Parse(Console.ReadLine());
+                double h = double.Parse(Console.ReadLine());
+                double areaTriangle = (aT * h)/2;
+                Console.WriteLine(areaTriangle.ToString("F2"));
+            }
+        }
+    }
+}
+f

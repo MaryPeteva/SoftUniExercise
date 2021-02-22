@@ -1,0 +1,37 @@
+using System;
+
+namespace DivideWithoutRemainder
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int n = int.Parse(Console.ReadLine());
+            double sum1 = 0.0;
+            double sum2 = 0.0;
+            double sum3 = 0.0;
+            for (int i = 0; i < n; i++)
+            {
+                int num = int.Parse(Console.ReadLine());
+                if (num % 2 == 0)
+                {
+                    sum1++;
+                }
+                if(num % 3 == 0)
+                {
+                    sum2++;
+                }
+                if(num % 4 == 0)
+                {
+                    sum3++;
+                }
+            }
+            double p1 = sum1 / n * 100;
+            double p2 = sum2 / n * 100;
+            double p3 = sum3 / n * 100;
+            Console.WriteLine($"{p1:F2}%");
+            Console.WriteLine($"{p2:F2}%");
+            Console.WriteLine($"{p3:F2}%");
+        }
+    }
+}

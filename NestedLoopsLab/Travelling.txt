@@ -1,0 +1,24 @@
+using System;
+
+namespace Travelling
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            string destination = Console.ReadLine();
+           
+            while (destination != "End")
+            {
+                double price = double.Parse(Console.ReadLine());
+                double moneyAv = 0.0;              
+                while (price > moneyAv)
+                {
+                    moneyAv += double.Parse(Console.ReadLine());
+                }
+                Console.WriteLine($"Going to {destination}!");
+                destination = Console.ReadLine();
+            }
+        }
+    }
+}
