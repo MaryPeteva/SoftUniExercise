@@ -1,0 +1,73 @@
+using System;
+
+namespace MidExam
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            string[] rooms = Console.ReadLine().Split('|');
+
+
+            int health = 100;
+            int coins = 0;
+
+            int currentHealth = 0;
+            bool isDead = false;
+            for (int i = 0; i < rooms.Length; i++)
+            {
+                int currentCoins = 0;
+                string command = rooms[i];
+                string[] type = command.Split();
+                if (type[0] == "potion")
+                {
+                    currentHealth = health;                    
+                    health += int.Parse(type[1]);
+                    int healed = 0;
+                    if (health > 100)
+                    {
+                        health = 100;
+                        healed = 100 - currentHealth;
+                    }
+                    else
+                    {
+                        healed = int.Parse(type[1]); ;
+                    }
+                    Console.WriteLine($"You healed for {healed} hp.");
+                    Console.WriteLine($"Current health: {health} hp.");
+
+                }
+                else if (type[0] == "chest")
+                {
+                    coins += int.Parse(type[1]);
+                    currentCoins += int.Parse(type[1]);
+                    Console.WriteLine($"You found {currentCoins} bitcoins.");
+
+                }
+                else
+                {
+                    int attack = int.Parse(type[1]);
+                    health -= attack;
+                    if (health <= 0)
+                    {
+                        Console.WriteLine($"You died! Killed by {type[0]}.");
+                        Console.WriteLine($"Best room: {i + 1}");
+                        isDead = true;
+                        break;
+                    }
+                    else
+                    {
+                        Console.WriteLine($"You slayed {type[0]}.");
+                    }
+                }
+            }
+            if (!isDead)
+            {
+                Console.WriteLine("You've made it!");
+                Console.WriteLine($"Bitcoins: {coins}");
+                Console.WriteLine($"Health: {health}");
+            }
+
+        }
+    }
+}

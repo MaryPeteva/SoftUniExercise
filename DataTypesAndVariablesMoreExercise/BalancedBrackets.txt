@@ -1,0 +1,41 @@
+using System;
+
+namespace BalancedBrackets
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int lines = int.Parse(Console.ReadLine());
+
+            int countOpen = 0;
+            int countClosed = 0;
+            for (int i = 0; i < lines; i++)
+            {
+                string input = Console.ReadLine();
+
+                if (input == "(")
+                {
+                    countOpen++;
+                }
+                if (input == ")")
+                {
+                    countClosed++;
+                }
+                if (countClosed > countOpen)
+                {
+                    Console.WriteLine("UNBALANCED");
+                    return;
+                }
+            }
+            if (countOpen == countClosed)
+            {
+                Console.WriteLine("BALANCED");
+            }
+            else
+            {
+                Console.WriteLine("UNBALANCED");
+            }
+        }
+    }
+}

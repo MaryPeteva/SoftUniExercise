@@ -1,0 +1,70 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+
+namespace MemoryGame
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            List<string> board = Console.ReadLine()
+                                    .Split(" ", StringSplitOptions.RemoveEmptyEntries)
+                                    .ToList();
+            string input = String.Empty;
+            int moves = 0;
+            bool isWin = false;
+            while ((input = Console.ReadLine()) != "end")
+            {
+                moves++;
+                int[] indexes = input.Split(" ", StringSplitOptions.RemoveEmptyEntries)
+                                     .Select(int.Parse)
+                                     .ToArray();
+                int indexOne = indexes[0];
+                int indexTwo = indexes[1];
+                if (indexOne >= 0 && indexTwo >= 0 &&
+                    indexOne < board.Count && indexTwo < board.Count && indexOne != indexTwo)
+                {
+                    if (board[indexOne] == board[indexTwo])
+                    {
+                        Console.WriteLine($"Congrats! You have found matching elements - {board[indexOne]}!");
+                        if (indexOne > indexTwo)
+                        {
+                            board.RemoveAt(indexOne);
+                            board.RemoveAt(indexTwo);
+                        }
+                        else
+                        {
+                            board.RemoveAt(indexTwo);
+                            board.RemoveAt(indexOne);
+                        }
+                        if (board.Count == 0)
+                        {
+                            Console.WriteLine($"You have won in {moves} turns!");
+                            isWin = true;
+                            return;
+                        }
+                    }
+                    else if (board[indexOne] != board[indexTwo])
+                    {
+                        Console.WriteLine("Try again!");
+                    }
+                }
+                else
+                {
+                    int middle = board.Count / 2;
+                    string newN = $"-{moves}a";
+                    board.Insert(middle, newN);
+                    board.Insert(middle + 1, newN);
+                    Console.WriteLine("Invalid input! Adding additional elements to the board");
+                }
+            }
+
+            if (!isWin)
+            {
+                Console.WriteLine("Sorry you lose :(");
+                Console.WriteLine(String.Join(" ", board));
+            }
+        }
+    }
+}

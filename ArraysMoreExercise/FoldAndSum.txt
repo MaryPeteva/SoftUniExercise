@@ -1,0 +1,45 @@
+using System;
+using System.Linq;
+
+namespace FoldAndSum
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int[] original = Console.ReadLine().Split(" ")
+                  .Select(int.Parse)
+                  .ToArray();
+
+            int leftFold = original.Length / 4 - 1;
+            int rightFold = 3 * original.Length / 4;
+
+            int[] topRow = new int[original.Length / 2];
+
+            int nums = 0;
+            for (int i = leftFold; i >= 0; i--)
+            {
+                nums++;
+                topRow[leftFold - i] = original[i];
+            }
+            for (int i = original.Length - 1; i >= rightFold; i--)
+            {
+                topRow[original.Length - 1 - i + nums] = original[i];
+            }
+
+            int[] bottomRow = new int[original.Length / 2];
+            int start = original.Length / 4;
+            int l = 0;
+            for (int i = start; i < original.Length - start; i++)
+            {
+                bottomRow[l] = original[i];
+                l++;
+            }
+
+            for (int i = 0; i <= topRow.Length - 1; i++) 
+            {
+                Console.Write($"{topRow[i] + bottomRow[i]} "); 
+            }
+        }
+    }
+}

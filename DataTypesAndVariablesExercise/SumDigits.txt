@@ -1,0 +1,20 @@
+using System;
+
+namespace SumDigits
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            string input = Console.ReadLine();
+            int sum = 0;
+            for (int i = 0; i < input.Length; i++)
+            {
+                char symbol = input[i];
+                int num = int.Parse(char.ToString(symbol));                
+                sum += num;
+            }
+            Console.WriteLine(sum);
+        }
+    }
+}

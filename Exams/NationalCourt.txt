@@ -1,0 +1,28 @@
+using System;
+
+namespace NationalCourt
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int pplPerHourFirstEmpl = int.Parse(Console.ReadLine());
+            int pplPerHourSecondEmpl = int.Parse(Console.ReadLine());
+            int pplPerHourThirdEmpl = int.Parse(Console.ReadLine());
+            int totalPplAsking = int.Parse(Console.ReadLine());
+            int totalPplPerHr = pplPerHourFirstEmpl + pplPerHourSecondEmpl + pplPerHourThirdEmpl;
+            int hours = 0;
+            while (totalPplAsking > 0)
+            {
+                hours++;
+                if (hours % 4 == 0)
+                {
+                    continue;
+                }
+                totalPplAsking -= totalPplPerHr;
+            }
+            Console.WriteLine($"Time needed: {hours}h.");
+
+        }
+    }
+}

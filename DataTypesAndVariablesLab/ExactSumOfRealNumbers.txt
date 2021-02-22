@@ -1,0 +1,20 @@
+using System;
+using System.Numerics;
+
+namespace ExactSumOfRealNumbers
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int rotation = int.Parse(Console.ReadLine());
+            decimal sum = 0;
+            for (int i = 1; i <= rotation; i++)
+            {
+                decimal num = decimal.Parse(Console.ReadLine());
+                sum += num;
+            }
+            Console.WriteLine(sum);
+        }
+    }
+}
