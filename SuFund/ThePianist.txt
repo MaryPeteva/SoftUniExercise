@@ -1,0 +1,94 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+
+namespace VowelsCount
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            
+            int numOfPieces = int.Parse(Console.ReadLine());
+            var musicPieces = new Dictionary<string, List<string>>();
+            for (int i = 0; i < numOfPieces; i++)
+            {
+                string[] input = Console.ReadLine().Split("|", StringSplitOptions.RemoveEmptyEntries).ToArray();
+                if (!musicPieces.ContainsKey(input[0])) 
+                {
+                    musicPieces.Add(input[0], new List<string> { input[1], input[2] });
+                }
+            }
+
+            string comandInput = string.Empty;
+            while ((comandInput = Console.ReadLine()) != "Stop")
+            {
+                string[] comand = comandInput.Split("|", StringSplitOptions.RemoveEmptyEntries).ToArray();
+                string action = comand[0];
+                switch (action)
+                {
+                    case "Add":
+                        string pieceAdd = comand[1];
+                        string composerAdd = comand[2];
+                        string keyAdd = comand[3];
+                        Add(musicPieces, pieceAdd, composerAdd, keyAdd);
+                        break;
+                    case "Remove":
+                        string pieceRemove = comand[1];
+                        Remove(musicPieces, pieceRemove);
+                        break;
+                    case "ChangeKey":
+                        string pieceChane = comand[1];
+                        string keyChange = comand[2];
+                        ChangeKey(musicPieces, pieceChane, keyChange);
+                        break;
+                }
+            }
+
+            foreach (var (piece, value) in musicPieces.OrderBy(x => x.Key).ThenBy(x => x.Value[0]))
+            {
+                Console.WriteLine($"{piece} -> Composer: {value[0]}, Key: {value[1]}");
+            }
+        }
+
+        private static void ChangeKey(Dictionary<string, List<string>> musicPieces, string pieceChane, string keyChange)
+        {
+            if (musicPieces.ContainsKey(pieceChane) == true)
+            {
+                //musicPieces.Add(input[0], new List<string> { input[1], input[2] });
+                musicPieces[pieceChane][1] = keyChange;
+                Console.WriteLine($"Changed the key of {pieceChane} to {keyChange}!");
+            }
+            else
+            {
+                Console.WriteLine($"Invalid operation! {pieceChane} does not exist in the collection.");
+            }
+        }
+
+        private static void Remove(Dictionary<string, List<string>> musicPieces, string pieceRemove)
+        {
+            if (musicPieces.ContainsKey(pieceRemove) == true)
+            {
+                musicPieces.Remove(pieceRemove);
+                Console.WriteLine($"Successfully removed {pieceRemove}!");
+            }
+            else
+            {
+                Console.WriteLine($"Invalid operation! {pieceRemove} does not exist in the collection.");
+            }
+        }
+
+        private static void Add(Dictionary<string, List<string>> musicPieces, string pieceAdd, string composerAdd, string keyAdd)
+        {
+            if (musicPieces.ContainsKey(pieceAdd) == false)
+            {
+                musicPieces.Add(pieceAdd, new List<string> { composerAdd, keyAdd });
+                Console.WriteLine($"{pieceAdd} by {composerAdd} in {keyAdd} added to the collection!");
+            }
+            else
+            {
+                Console.WriteLine($"{pieceAdd} is already in the collection!");
+            }
+        }
+    }
+}

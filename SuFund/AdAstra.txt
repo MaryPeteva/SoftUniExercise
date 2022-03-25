@@ -1,0 +1,33 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text.RegularExpressions;
+
+namespace ConsoleApp3
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            char[] separator = { '|', '#' };
+            string foodInput = Console.ReadLine();
+            string pattern = @"([#\|])(?<name>[A-Za-z\s]+)\1(?<date>\d{2}\/\d{2}\/\d{2})*\1(?<calories>\d{1,5})\1";
+            MatchCollection foods = Regex.Matches(foodInput, pattern);
+            int sum = 0;
+            foreach (Match food in foods)
+            {
+                int calories = (int.Parse)(food.Groups["calories"].Value);
+
+                sum += calories;
+            }
+            int days = (sum / 2000);
+            Console.WriteLine($"You have food to last you for: {days} days!");
+            foreach (Match food in foods)
+            {
+                
+                Console.WriteLine($"Item: {food.Groups["name"].Value}, Best before: {food.Groups["date"].Value}, Nutrition: {(food.Groups["calories"].Value)}");
+            }
+
+        }
+    }
+}

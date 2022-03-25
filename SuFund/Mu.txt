@@ -1,0 +1,64 @@
+using System;
+using System.Linq;
+
+namespace MuOnline
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            string[] rooms = Console.ReadLine()
+                                    .Split("|",StringSplitOptions.RemoveEmptyEntries);
+            int health = 100;
+            int coins = 0;
+            for (int i = 0; i < rooms.Length; i++)
+            {
+                
+                string[] comand = rooms[i].Split(" ",StringSplitOptions.RemoveEmptyEntries)
+                                          .ToArray();
+
+                int commandNum = int.Parse(comand[1]);
+                switch (comand[0])
+                {
+                    case "potion":
+                        int healed = 0;
+                        int currHealth = health;
+                        health += commandNum;
+                        if (health > 100)
+                        {
+                            healed = 100 - currHealth;
+                            health = 100;                            
+                        }
+                        else
+                        {
+                            healed = commandNum;
+                        }
+                        Console.WriteLine($"You healed for {healed} hp.\nCurrent health: {health} hp.");                        
+                        break;
+                    case "chest":
+                        coins += commandNum;
+                        Console.WriteLine($"You found {commandNum} bitcoins.");
+                        break;
+                    default:
+                        health -= commandNum;
+                        if (health > 0)
+                        {
+                            Console.WriteLine($"You slayed {comand[0]}.");
+                        }
+                        else
+                        {
+                            Console.WriteLine($"You died! Killed by {comand[0]}.\nBest room: {i+1}");
+                            return;
+                        }
+                        break;
+                }
+
+            }
+
+            if (health > 0)
+            {
+                Console.WriteLine($"You've made it!\nBitcoins: {coins}\nHealth: {health}");
+            }
+        }
+    }
+}

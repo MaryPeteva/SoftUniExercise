@@ -1,0 +1,67 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+
+namespace VowelsCount
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+
+            List<string> nums = Console.ReadLine()
+                                 .Split(" ", StringSplitOptions.RemoveEmptyEntries)
+                                 .ToList();
+            string input = string.Empty;
+            int movesCount = 0;
+            bool IsWin = false;
+            while ((input = Console.ReadLine()) != "end")
+            {
+                int[] playersGuess = input.Split(" ", StringSplitOptions.RemoveEmptyEntries)
+                                     .Select(int.Parse)
+                                     .ToArray();
+                movesCount++;
+                if ((playersGuess[0] == playersGuess[1]) ||
+                    playersGuess[0] > nums.Count - 1 || playersGuess[0] < 0 ||
+                    playersGuess[1] > nums.Count - 1 || playersGuess[1] < 0)
+                {
+                    int index = nums.Count / 2;
+                    string newAdd = $"-{movesCount}a";
+                    nums.Insert(index, newAdd);
+                    nums.Insert(index + 1, newAdd);
+                    Console.WriteLine("Invalid input! Adding additional elements to the board");
+                }
+                else if (nums[playersGuess[0]] == nums[playersGuess[1]])
+                {
+                    Console.WriteLine($"Congrats! You have found matching elements - {nums[playersGuess[0]]}!");
+                    if (playersGuess[0] > playersGuess[1])
+                    {
+                        nums.RemoveAt(playersGuess[0]);
+                        nums.RemoveAt(playersGuess[1]);
+                    }
+                    else
+                    {
+                        nums.RemoveAt(playersGuess[1]);
+                        nums.RemoveAt(playersGuess[0]);
+                    }
+                }
+                else if (nums[playersGuess[0]] != nums[playersGuess[1]]) 
+                {
+                    Console.WriteLine("Try again!");
+                }
+
+                if (nums.Count == 0) 
+                {
+                    Console.WriteLine($"You have won in {movesCount} turns!");
+                    IsWin = true;
+                    break;
+                }
+            }
+
+            if (!IsWin) 
+            {
+                Console.WriteLine($"Sorry you lose :(\n{string.Join(" ",nums)}");
+            }
+        }
+    }
+}

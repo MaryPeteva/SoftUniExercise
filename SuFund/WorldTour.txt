@@ -1,0 +1,56 @@
+using System;
+using System.Linq;
+
+
+namespace ConsoleApp3
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            string travelStop = Console.ReadLine();
+            string result = string.Empty;
+            string input = string.Empty;
+
+            while ((input = Console.ReadLine()) != "Travel")
+            {
+                string[] comand = input.Split(":").ToArray();
+                string action = comand[0];
+                switch (action)
+                {
+                    case "Add Stop":
+                        int index = int.Parse(comand[1]);
+                        string newStop = comand[2];
+                        if (index >= 0 && index < travelStop.Length)
+                        {
+                            travelStop = travelStop.Insert(index, newStop);
+                        }
+                        break;
+                    case "Remove Stop":
+                        int startIndex = int.Parse(comand[1]);
+                        int endIndex = int.Parse(comand[2]);
+                        if (startIndex >= 0 &&  endIndex < travelStop.Length) 
+                        {
+                            travelStop = travelStop.Remove(startIndex,endIndex-startIndex+1);
+                        }
+
+                            break;
+                    case "Switch":
+                        string oldStop = comand[1];
+                        string newStopp = comand[2];
+                        if (travelStop.Contains(oldStop)) 
+                        {
+                            travelStop = travelStop.Replace(oldStop, newStopp);
+                        }
+                        break;
+                }
+
+                Console.WriteLine(travelStop);
+            }
+
+            Console.WriteLine($"Ready for world tour! Planned stops: {travelStop}");
+
+        }
+
+    }
+}

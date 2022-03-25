@@ -1,0 +1,64 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+
+namespace VowelsCount
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            string encryptedMessage = Console.ReadLine();
+            string input = string.Empty;
+            while ((input=Console.ReadLine())!= "Decode") 
+            {
+                string[] comand = input.Split("|",StringSplitOptions.RemoveEmptyEntries).ToArray();
+                string action = comand[0];
+                switch(action)
+                {
+                    case "Move":
+                        int numOfLetters = int.Parse(comand[1]);
+                        encryptedMessage = Move(encryptedMessage,numOfLetters);
+                        break;
+                    case "Insert":
+                        int index = int.Parse(comand[1]);
+                        string value = comand[2];
+                        encryptedMessage = Insert(encryptedMessage,index,value);
+                        break;
+                    case "ChangeAll":
+                        string toBeChanged = comand[1];
+                        string theChange = comand[2];
+                        encryptedMessage = ChangeAll(encryptedMessage,toBeChanged,theChange);
+                        break;
+                }
+            }
+
+            Console.WriteLine($"The decrypted message is: {encryptedMessage}");
+
+        }
+
+        private static string ChangeAll(string encryptedMessage, string toBeChanged, string theChange)
+        {
+            while (encryptedMessage.Contains(toBeChanged)) 
+            {
+                encryptedMessage = encryptedMessage.Replace(toBeChanged,theChange);
+            }
+            return encryptedMessage;
+        }
+
+        private static string Insert(string encryptedMessage, int index, string value)
+        {
+            encryptedMessage = encryptedMessage.Insert(index,value);
+            return encryptedMessage;
+        }
+
+        private static string Move(string encryptedMessage, int numOfLetters)
+        {
+            int len = encryptedMessage.Length-numOfLetters;
+            string newMessageEnd = encryptedMessage.Substring(0,numOfLetters);
+            string newMessageStart = encryptedMessage.Substring(numOfLetters,len);
+            encryptedMessage = newMessageStart + newMessageEnd;
+            return encryptedMessage;
+        }
+    }
+}
