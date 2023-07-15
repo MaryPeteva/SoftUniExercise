@@ -1,0 +1,15 @@
+D:\HomeWorksSoftUni\streams\CopyBinaryFile\bin\Debug\net6.0\CopyBinaryFile.exe
+D:\HomeWorksSoftUni\streams\CopyBinaryFile\bin\Debug\net6.0\CopyBinaryFile.deps.json
+D:\HomeWorksSoftUni\streams\CopyBinaryFile\bin\Debug\net6.0\CopyBinaryFile.runtimeconfig.json
+D:\HomeWorksSoftUni\streams\CopyBinaryFile\bin\Debug\net6.0\CopyBinaryFile.dll
+D:\HomeWorksSoftUni\streams\CopyBinaryFile\bin\Debug\net6.0\CopyBinaryFile.pdb
+D:\HomeWorksSoftUni\streams\CopyBinaryFile\obj\Debug\net6.0\CopyBinaryFile.csproj.AssemblyReference.cache
+D:\HomeWorksSoftUni\streams\CopyBinaryFile\obj\Debug\net6.0\CopyBinaryFile.GeneratedMSBuildEditorConfig.editorconfig
+D:\HomeWorksSoftUni\streams\CopyBinaryFile\obj\Debug\net6.0\CopyBinaryFile.AssemblyInfoInputs.cache
+D:\HomeWorksSoftUni\streams\CopyBinaryFile\obj\Debug\net6.0\CopyBinaryFile.AssemblyInfo.cs
+D:\HomeWorksSoftUni\streams\CopyBinaryFile\obj\Debug\net6.0\CopyBinaryFile.csproj.CoreCompileInputs.cache
+D:\HomeWorksSoftUni\streams\CopyBinaryFile\obj\Debug\net6.0\CopyBinaryFile.dll
+D:\HomeWorksSoftUni\streams\CopyBinaryFile\obj\Debug\net6.0\refint\CopyBinaryFile.dll
+D:\HomeWorksSoftUni\streams\CopyBinaryFile\obj\Debug\net6.0\CopyBinaryFile.pdb
+D:\HomeWorksSoftUni\streams\CopyBinaryFile\obj\Debug\net6.0\CopyBinaryFile.genruntimeconfig.cache
+D:\HomeWorksSoftUni\streams\CopyBinaryFile\obj\Debug\net6.0\ref\CopyBinaryFile.dll

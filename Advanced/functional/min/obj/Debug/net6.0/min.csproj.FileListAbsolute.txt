@@ -1,0 +1,15 @@
+D:\HomeWorksSoftUni\functional\min\bin\Debug\net6.0\min.exe
+D:\HomeWorksSoftUni\functional\min\bin\Debug\net6.0\min.deps.json
+D:\HomeWorksSoftUni\functional\min\bin\Debug\net6.0\min.runtimeconfig.json
+D:\HomeWorksSoftUni\functional\min\bin\Debug\net6.0\min.dll
+D:\HomeWorksSoftUni\functional\min\bin\Debug\net6.0\min.pdb
+D:\HomeWorksSoftUni\functional\min\obj\Debug\net6.0\min.csproj.AssemblyReference.cache
+D:\HomeWorksSoftUni\functional\min\obj\Debug\net6.0\min.GeneratedMSBuildEditorConfig.editorconfig
+D:\HomeWorksSoftUni\functional\min\obj\Debug\net6.0\min.AssemblyInfoInputs.cache
+D:\HomeWorksSoftUni\functional\min\obj\Debug\net6.0\min.AssemblyInfo.cs
+D:\HomeWorksSoftUni\functional\min\obj\Debug\net6.0\min.csproj.CoreCompileInputs.cache
+D:\HomeWorksSoftUni\functional\min\obj\Debug\net6.0\min.dll
+D:\HomeWorksSoftUni\functional\min\obj\Debug\net6.0\refint\min.dll
+D:\HomeWorksSoftUni\functional\min\obj\Debug\net6.0\min.pdb
+D:\HomeWorksSoftUni\functional\min\obj\Debug\net6.0\min.genruntimeconfig.cache
+D:\HomeWorksSoftUni\functional\min\obj\Debug\net6.0\ref\min.dll

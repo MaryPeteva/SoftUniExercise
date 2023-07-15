@@ -1,0 +1,15 @@
+C:\Users\asss\source\repos\KnightGame\bin\Debug\net6.0\KnightGame.exe
+C:\Users\asss\source\repos\KnightGame\bin\Debug\net6.0\KnightGame.deps.json
+C:\Users\asss\source\repos\KnightGame\bin\Debug\net6.0\KnightGame.runtimeconfig.json
+C:\Users\asss\source\repos\KnightGame\bin\Debug\net6.0\KnightGame.dll
+C:\Users\asss\source\repos\KnightGame\bin\Debug\net6.0\KnightGame.pdb
+C:\Users\asss\source\repos\KnightGame\obj\Debug\net6.0\KnightGame.csproj.AssemblyReference.cache
+C:\Users\asss\source\repos\KnightGame\obj\Debug\net6.0\KnightGame.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\asss\source\repos\KnightGame\obj\Debug\net6.0\KnightGame.AssemblyInfoInputs.cache
+C:\Users\asss\source\repos\KnightGame\obj\Debug\net6.0\KnightGame.AssemblyInfo.cs
+C:\Users\asss\source\repos\KnightGame\obj\Debug\net6.0\KnightGame.csproj.CoreCompileInputs.cache
+C:\Users\asss\source\repos\KnightGame\obj\Debug\net6.0\KnightGame.dll
+C:\Users\asss\source\repos\KnightGame\obj\Debug\net6.0\refint\KnightGame.dll
+C:\Users\asss\source\repos\KnightGame\obj\Debug\net6.0\KnightGame.pdb
+C:\Users\asss\source\repos\KnightGame\obj\Debug\net6.0\KnightGame.genruntimeconfig.cache
+C:\Users\asss\source\repos\KnightGame\obj\Debug\net6.0\ref\KnightGame.dll

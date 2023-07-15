@@ -1,0 +1,15 @@
+D:\HomeWorksSoftUni\repos\RecordUniqueNames\bin\Debug\net6.0\RecordUniqueNames.exe
+D:\HomeWorksSoftUni\repos\RecordUniqueNames\bin\Debug\net6.0\RecordUniqueNames.deps.json
+D:\HomeWorksSoftUni\repos\RecordUniqueNames\bin\Debug\net6.0\RecordUniqueNames.runtimeconfig.json
+D:\HomeWorksSoftUni\repos\RecordUniqueNames\bin\Debug\net6.0\RecordUniqueNames.dll
+D:\HomeWorksSoftUni\repos\RecordUniqueNames\bin\Debug\net6.0\RecordUniqueNames.pdb
+D:\HomeWorksSoftUni\repos\RecordUniqueNames\obj\Debug\net6.0\RecordUniqueNames.csproj.AssemblyReference.cache
+D:\HomeWorksSoftUni\repos\RecordUniqueNames\obj\Debug\net6.0\RecordUniqueNames.GeneratedMSBuildEditorConfig.editorconfig
+D:\HomeWorksSoftUni\repos\RecordUniqueNames\obj\Debug\net6.0\RecordUniqueNames.AssemblyInfoInputs.cache
+D:\HomeWorksSoftUni\repos\RecordUniqueNames\obj\Debug\net6.0\RecordUniqueNames.AssemblyInfo.cs
+D:\HomeWorksSoftUni\repos\RecordUniqueNames\obj\Debug\net6.0\RecordUniqueNames.csproj.CoreCompileInputs.cache
+D:\HomeWorksSoftUni\repos\RecordUniqueNames\obj\Debug\net6.0\RecordUniqueNames.dll
+D:\HomeWorksSoftUni\repos\RecordUniqueNames\obj\Debug\net6.0\refint\RecordUniqueNames.dll
+D:\HomeWorksSoftUni\repos\RecordUniqueNames\obj\Debug\net6.0\RecordUniqueNames.pdb
+D:\HomeWorksSoftUni\repos\RecordUniqueNames\obj\Debug\net6.0\RecordUniqueNames.genruntimeconfig.cache
+D:\HomeWorksSoftUni\repos\RecordUniqueNames\obj\Debug\net6.0\ref\RecordUniqueNames.dll

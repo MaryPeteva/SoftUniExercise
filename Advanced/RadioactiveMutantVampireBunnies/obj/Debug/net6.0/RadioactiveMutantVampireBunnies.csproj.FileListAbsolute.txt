@@ -1,0 +1,15 @@
+D:\HomeWorksSoftUni\repos\RadioactiveMutantVampireBunnies\bin\Debug\net6.0\RadioactiveMutantVampireBunnies.exe
+D:\HomeWorksSoftUni\repos\RadioactiveMutantVampireBunnies\bin\Debug\net6.0\RadioactiveMutantVampireBunnies.deps.json
+D:\HomeWorksSoftUni\repos\RadioactiveMutantVampireBunnies\bin\Debug\net6.0\RadioactiveMutantVampireBunnies.runtimeconfig.json
+D:\HomeWorksSoftUni\repos\RadioactiveMutantVampireBunnies\bin\Debug\net6.0\RadioactiveMutantVampireBunnies.dll
+D:\HomeWorksSoftUni\repos\RadioactiveMutantVampireBunnies\bin\Debug\net6.0\RadioactiveMutantVampireBunnies.pdb
+D:\HomeWorksSoftUni\repos\RadioactiveMutantVampireBunnies\obj\Debug\net6.0\RadioactiveMutantVampireBunnies.csproj.AssemblyReference.cache
+D:\HomeWorksSoftUni\repos\RadioactiveMutantVampireBunnies\obj\Debug\net6.0\RadioactiveMutantVampireBunnies.GeneratedMSBuildEditorConfig.editorconfig
+D:\HomeWorksSoftUni\repos\RadioactiveMutantVampireBunnies\obj\Debug\net6.0\RadioactiveMutantVampireBunnies.AssemblyInfoInputs.cache
+D:\HomeWorksSoftUni\repos\RadioactiveMutantVampireBunnies\obj\Debug\net6.0\RadioactiveMutantVampireBunnies.AssemblyInfo.cs
+D:\HomeWorksSoftUni\repos\RadioactiveMutantVampireBunnies\obj\Debug\net6.0\RadioactiveMutantVampireBunnies.csproj.CoreCompileInputs.cache
+D:\HomeWorksSoftUni\repos\RadioactiveMutantVampireBunnies\obj\Debug\net6.0\RadioactiveMutantVampireBunnies.dll
+D:\HomeWorksSoftUni\repos\RadioactiveMutantVampireBunnies\obj\Debug\net6.0\refint\RadioactiveMutantVampireBunnies.dll
+D:\HomeWorksSoftUni\repos\RadioactiveMutantVampireBunnies\obj\Debug\net6.0\RadioactiveMutantVampireBunnies.pdb
+D:\HomeWorksSoftUni\repos\RadioactiveMutantVampireBunnies\obj\Debug\net6.0\RadioactiveMutantVampireBunnies.genruntimeconfig.cache
+D:\HomeWorksSoftUni\repos\RadioactiveMutantVampireBunnies\obj\Debug\net6.0\ref\RadioactiveMutantVampireBunnies.dll

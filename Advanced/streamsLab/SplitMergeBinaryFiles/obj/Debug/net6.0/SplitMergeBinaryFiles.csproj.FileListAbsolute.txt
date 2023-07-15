@@ -1,0 +1,15 @@
+D:\HomeWorksSoftUni\SplitMergeBinaryFiles\bin\Debug\net6.0\SplitMergeBinaryFiles.exe
+D:\HomeWorksSoftUni\SplitMergeBinaryFiles\bin\Debug\net6.0\SplitMergeBinaryFiles.deps.json
+D:\HomeWorksSoftUni\SplitMergeBinaryFiles\bin\Debug\net6.0\SplitMergeBinaryFiles.runtimeconfig.json
+D:\HomeWorksSoftUni\SplitMergeBinaryFiles\bin\Debug\net6.0\SplitMergeBinaryFiles.dll
+D:\HomeWorksSoftUni\SplitMergeBinaryFiles\bin\Debug\net6.0\SplitMergeBinaryFiles.pdb
+D:\HomeWorksSoftUni\SplitMergeBinaryFiles\obj\Debug\net6.0\SplitMergeBinaryFiles.csproj.AssemblyReference.cache
+D:\HomeWorksSoftUni\SplitMergeBinaryFiles\obj\Debug\net6.0\SplitMergeBinaryFiles.GeneratedMSBuildEditorConfig.editorconfig
+D:\HomeWorksSoftUni\SplitMergeBinaryFiles\obj\Debug\net6.0\SplitMergeBinaryFiles.AssemblyInfoInputs.cache
+D:\HomeWorksSoftUni\SplitMergeBinaryFiles\obj\Debug\net6.0\SplitMergeBinaryFiles.AssemblyInfo.cs
+D:\HomeWorksSoftUni\SplitMergeBinaryFiles\obj\Debug\net6.0\SplitMergeBinaryFiles.csproj.CoreCompileInputs.cache
+D:\HomeWorksSoftUni\SplitMergeBinaryFiles\obj\Debug\net6.0\SplitMergeBinaryFiles.dll
+D:\HomeWorksSoftUni\SplitMergeBinaryFiles\obj\Debug\net6.0\refint\SplitMergeBinaryFiles.dll
+D:\HomeWorksSoftUni\SplitMergeBinaryFiles\obj\Debug\net6.0\SplitMergeBinaryFiles.pdb
+D:\HomeWorksSoftUni\SplitMergeBinaryFiles\obj\Debug\net6.0\SplitMergeBinaryFiles.genruntimeconfig.cache
+D:\HomeWorksSoftUni\SplitMergeBinaryFiles\obj\Debug\net6.0\ref\SplitMergeBinaryFiles.dll

@@ -1,0 +1,15 @@
+D:\HomeWorksSoftUni\repos\SoftUniParty\bin\Debug\net6.0\SoftUniParty.exe
+D:\HomeWorksSoftUni\repos\SoftUniParty\bin\Debug\net6.0\SoftUniParty.deps.json
+D:\HomeWorksSoftUni\repos\SoftUniParty\bin\Debug\net6.0\SoftUniParty.runtimeconfig.json
+D:\HomeWorksSoftUni\repos\SoftUniParty\bin\Debug\net6.0\SoftUniParty.dll
+D:\HomeWorksSoftUni\repos\SoftUniParty\bin\Debug\net6.0\SoftUniParty.pdb
+D:\HomeWorksSoftUni\repos\SoftUniParty\obj\Debug\net6.0\SoftUniParty.csproj.AssemblyReference.cache
+D:\HomeWorksSoftUni\repos\SoftUniParty\obj\Debug\net6.0\SoftUniParty.GeneratedMSBuildEditorConfig.editorconfig
+D:\HomeWorksSoftUni\repos\SoftUniParty\obj\Debug\net6.0\SoftUniParty.AssemblyInfoInputs.cache
+D:\HomeWorksSoftUni\repos\SoftUniParty\obj\Debug\net6.0\SoftUniParty.AssemblyInfo.cs
+D:\HomeWorksSoftUni\repos\SoftUniParty\obj\Debug\net6.0\SoftUniParty.csproj.CoreCompileInputs.cache
+D:\HomeWorksSoftUni\repos\SoftUniParty\obj\Debug\net6.0\SoftUniParty.dll
+D:\HomeWorksSoftUni\repos\SoftUniParty\obj\Debug\net6.0\refint\SoftUniParty.dll
+D:\HomeWorksSoftUni\repos\SoftUniParty\obj\Debug\net6.0\SoftUniParty.pdb
+D:\HomeWorksSoftUni\repos\SoftUniParty\obj\Debug\net6.0\SoftUniParty.genruntimeconfig.cache
+D:\HomeWorksSoftUni\repos\SoftUniParty\obj\Debug\net6.0\ref\SoftUniParty.dll

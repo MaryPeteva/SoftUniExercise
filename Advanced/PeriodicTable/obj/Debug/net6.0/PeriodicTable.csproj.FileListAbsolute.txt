@@ -1,0 +1,15 @@
+D:\HomeWorksSoftUni\repos\PeriodicTable\bin\Debug\net6.0\PeriodicTable.exe
+D:\HomeWorksSoftUni\repos\PeriodicTable\bin\Debug\net6.0\PeriodicTable.deps.json
+D:\HomeWorksSoftUni\repos\PeriodicTable\bin\Debug\net6.0\PeriodicTable.runtimeconfig.json
+D:\HomeWorksSoftUni\repos\PeriodicTable\bin\Debug\net6.0\PeriodicTable.dll
+D:\HomeWorksSoftUni\repos\PeriodicTable\bin\Debug\net6.0\PeriodicTable.pdb
+D:\HomeWorksSoftUni\repos\PeriodicTable\obj\Debug\net6.0\PeriodicTable.csproj.AssemblyReference.cache
+D:\HomeWorksSoftUni\repos\PeriodicTable\obj\Debug\net6.0\PeriodicTable.GeneratedMSBuildEditorConfig.editorconfig
+D:\HomeWorksSoftUni\repos\PeriodicTable\obj\Debug\net6.0\PeriodicTable.AssemblyInfoInputs.cache
+D:\HomeWorksSoftUni\repos\PeriodicTable\obj\Debug\net6.0\PeriodicTable.AssemblyInfo.cs
+D:\HomeWorksSoftUni\repos\PeriodicTable\obj\Debug\net6.0\PeriodicTable.csproj.CoreCompileInputs.cache
+D:\HomeWorksSoftUni\repos\PeriodicTable\obj\Debug\net6.0\PeriodicTable.dll
+D:\HomeWorksSoftUni\repos\PeriodicTable\obj\Debug\net6.0\refint\PeriodicTable.dll
+D:\HomeWorksSoftUni\repos\PeriodicTable\obj\Debug\net6.0\PeriodicTable.pdb
+D:\HomeWorksSoftUni\repos\PeriodicTable\obj\Debug\net6.0\PeriodicTable.genruntimeconfig.cache
+D:\HomeWorksSoftUni\repos\PeriodicTable\obj\Debug\net6.0\ref\PeriodicTable.dll

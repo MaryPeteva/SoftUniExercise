@@ -1,0 +1,15 @@
+D:\HomeWorksSoftUni\exam\SingleInheritance\bin\Debug\net6.0\SingleInheritance.exe
+D:\HomeWorksSoftUni\exam\SingleInheritance\bin\Debug\net6.0\SingleInheritance.deps.json
+D:\HomeWorksSoftUni\exam\SingleInheritance\bin\Debug\net6.0\SingleInheritance.runtimeconfig.json
+D:\HomeWorksSoftUni\exam\SingleInheritance\bin\Debug\net6.0\SingleInheritance.dll
+D:\HomeWorksSoftUni\exam\SingleInheritance\bin\Debug\net6.0\SingleInheritance.pdb
+D:\HomeWorksSoftUni\exam\SingleInheritance\obj\Debug\net6.0\SingleInheritance.csproj.AssemblyReference.cache
+D:\HomeWorksSoftUni\exam\SingleInheritance\obj\Debug\net6.0\SingleInheritance.GeneratedMSBuildEditorConfig.editorconfig
+D:\HomeWorksSoftUni\exam\SingleInheritance\obj\Debug\net6.0\SingleInheritance.AssemblyInfoInputs.cache
+D:\HomeWorksSoftUni\exam\SingleInheritance\obj\Debug\net6.0\SingleInheritance.AssemblyInfo.cs
+D:\HomeWorksSoftUni\exam\SingleInheritance\obj\Debug\net6.0\SingleInheritance.csproj.CoreCompileInputs.cache
+D:\HomeWorksSoftUni\exam\SingleInheritance\obj\Debug\net6.0\SingleInheritance.dll
+D:\HomeWorksSoftUni\exam\SingleInheritance\obj\Debug\net6.0\refint\SingleInheritance.dll
+D:\HomeWorksSoftUni\exam\SingleInheritance\obj\Debug\net6.0\SingleInheritance.pdb
+D:\HomeWorksSoftUni\exam\SingleInheritance\obj\Debug\net6.0\SingleInheritance.genruntimeconfig.cache
+D:\HomeWorksSoftUni\exam\SingleInheritance\obj\Debug\net6.0\ref\SingleInheritance.dll

@@ -1,0 +1,15 @@
+C:\Users\asss\source\repos\KeyRevolver\bin\Debug\net6.0\KeyRevolver.exe
+C:\Users\asss\source\repos\KeyRevolver\bin\Debug\net6.0\KeyRevolver.deps.json
+C:\Users\asss\source\repos\KeyRevolver\bin\Debug\net6.0\KeyRevolver.runtimeconfig.json
+C:\Users\asss\source\repos\KeyRevolver\bin\Debug\net6.0\KeyRevolver.dll
+C:\Users\asss\source\repos\KeyRevolver\bin\Debug\net6.0\KeyRevolver.pdb
+C:\Users\asss\source\repos\KeyRevolver\obj\Debug\net6.0\KeyRevolver.csproj.AssemblyReference.cache
+C:\Users\asss\source\repos\KeyRevolver\obj\Debug\net6.0\KeyRevolver.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\asss\source\repos\KeyRevolver\obj\Debug\net6.0\KeyRevolver.AssemblyInfoInputs.cache
+C:\Users\asss\source\repos\KeyRevolver\obj\Debug\net6.0\KeyRevolver.AssemblyInfo.cs
+C:\Users\asss\source\repos\KeyRevolver\obj\Debug\net6.0\KeyRevolver.csproj.CoreCompileInputs.cache
+C:\Users\asss\source\repos\KeyRevolver\obj\Debug\net6.0\KeyRevolver.dll
+C:\Users\asss\source\repos\KeyRevolver\obj\Debug\net6.0\refint\KeyRevolver.dll
+C:\Users\asss\source\repos\KeyRevolver\obj\Debug\net6.0\KeyRevolver.pdb
+C:\Users\asss\source\repos\KeyRevolver\obj\Debug\net6.0\KeyRevolver.genruntimeconfig.cache
+C:\Users\asss\source\repos\KeyRevolver\obj\Debug\net6.0\ref\KeyRevolver.dll

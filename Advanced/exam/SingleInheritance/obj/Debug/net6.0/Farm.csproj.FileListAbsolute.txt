@@ -1,0 +1,15 @@
+D:\HomeWorksSoftUni\exam\SingleInheritance\bin\Debug\net6.0\Farm.exe
+D:\HomeWorksSoftUni\exam\SingleInheritance\bin\Debug\net6.0\Farm.deps.json
+D:\HomeWorksSoftUni\exam\SingleInheritance\bin\Debug\net6.0\Farm.runtimeconfig.json
+D:\HomeWorksSoftUni\exam\SingleInheritance\bin\Debug\net6.0\Farm.dll
+D:\HomeWorksSoftUni\exam\SingleInheritance\bin\Debug\net6.0\Farm.pdb
+D:\HomeWorksSoftUni\exam\SingleInheritance\obj\Debug\net6.0\Farm.csproj.AssemblyReference.cache
+D:\HomeWorksSoftUni\exam\SingleInheritance\obj\Debug\net6.0\Farm.GeneratedMSBuildEditorConfig.editorconfig
+D:\HomeWorksSoftUni\exam\SingleInheritance\obj\Debug\net6.0\Farm.AssemblyInfoInputs.cache
+D:\HomeWorksSoftUni\exam\SingleInheritance\obj\Debug\net6.0\Farm.AssemblyInfo.cs
+D:\HomeWorksSoftUni\exam\SingleInheritance\obj\Debug\net6.0\Farm.csproj.CoreCompileInputs.cache
+D:\HomeWorksSoftUni\exam\SingleInheritance\obj\Debug\net6.0\Farm.dll
+D:\HomeWorksSoftUni\exam\SingleInheritance\obj\Debug\net6.0\refint\Farm.dll
+D:\HomeWorksSoftUni\exam\SingleInheritance\obj\Debug\net6.0\Farm.pdb
+D:\HomeWorksSoftUni\exam\SingleInheritance\obj\Debug\net6.0\Farm.genruntimeconfig.cache
+D:\HomeWorksSoftUni\exam\SingleInheritance\obj\Debug\net6.0\ref\Farm.dll

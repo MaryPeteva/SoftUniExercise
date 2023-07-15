@@ -1,0 +1,15 @@
+D:\HomeWorksSoftUni\repos\CitiesByContinentAndCountry\bin\Debug\net6.0\CitiesByContinentAndCountry.exe
+D:\HomeWorksSoftUni\repos\CitiesByContinentAndCountry\bin\Debug\net6.0\CitiesByContinentAndCountry.deps.json
+D:\HomeWorksSoftUni\repos\CitiesByContinentAndCountry\bin\Debug\net6.0\CitiesByContinentAndCountry.runtimeconfig.json
+D:\HomeWorksSoftUni\repos\CitiesByContinentAndCountry\bin\Debug\net6.0\CitiesByContinentAndCountry.dll
+D:\HomeWorksSoftUni\repos\CitiesByContinentAndCountry\bin\Debug\net6.0\CitiesByContinentAndCountry.pdb
+D:\HomeWorksSoftUni\repos\CitiesByContinentAndCountry\obj\Debug\net6.0\CitiesByContinentAndCountry.csproj.AssemblyReference.cache
+D:\HomeWorksSoftUni\repos\CitiesByContinentAndCountry\obj\Debug\net6.0\CitiesByContinentAndCountry.GeneratedMSBuildEditorConfig.editorconfig
+D:\HomeWorksSoftUni\repos\CitiesByContinentAndCountry\obj\Debug\net6.0\CitiesByContinentAndCountry.AssemblyInfoInputs.cache
+D:\HomeWorksSoftUni\repos\CitiesByContinentAndCountry\obj\Debug\net6.0\CitiesByContinentAndCountry.AssemblyInfo.cs
+D:\HomeWorksSoftUni\repos\CitiesByContinentAndCountry\obj\Debug\net6.0\CitiesByContinentAndCountry.csproj.CoreCompileInputs.cache
+D:\HomeWorksSoftUni\repos\CitiesByContinentAndCountry\obj\Debug\net6.0\CitiesByContinentAndCountry.dll
+D:\HomeWorksSoftUni\repos\CitiesByContinentAndCountry\obj\Debug\net6.0\refint\CitiesByContinentAndCountry.dll
+D:\HomeWorksSoftUni\repos\CitiesByContinentAndCountry\obj\Debug\net6.0\CitiesByContinentAndCountry.pdb
+D:\HomeWorksSoftUni\repos\CitiesByContinentAndCountry\obj\Debug\net6.0\CitiesByContinentAndCountry.genruntimeconfig.cache
+D:\HomeWorksSoftUni\repos\CitiesByContinentAndCountry\obj\Debug\net6.0\ref\CitiesByContinentAndCountry.dll

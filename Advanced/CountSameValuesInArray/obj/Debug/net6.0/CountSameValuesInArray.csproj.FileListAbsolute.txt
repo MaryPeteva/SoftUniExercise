@@ -1,0 +1,15 @@
+D:\HomeWorksSoftUni\repos\CountSameValuesInArray\bin\Debug\net6.0\CountSameValuesInArray.exe
+D:\HomeWorksSoftUni\repos\CountSameValuesInArray\bin\Debug\net6.0\CountSameValuesInArray.deps.json
+D:\HomeWorksSoftUni\repos\CountSameValuesInArray\bin\Debug\net6.0\CountSameValuesInArray.runtimeconfig.json
+D:\HomeWorksSoftUni\repos\CountSameValuesInArray\bin\Debug\net6.0\CountSameValuesInArray.dll
+D:\HomeWorksSoftUni\repos\CountSameValuesInArray\bin\Debug\net6.0\CountSameValuesInArray.pdb
+D:\HomeWorksSoftUni\repos\CountSameValuesInArray\obj\Debug\net6.0\CountSameValuesInArray.csproj.AssemblyReference.cache
+D:\HomeWorksSoftUni\repos\CountSameValuesInArray\obj\Debug\net6.0\CountSameValuesInArray.GeneratedMSBuildEditorConfig.editorconfig
+D:\HomeWorksSoftUni\repos\CountSameValuesInArray\obj\Debug\net6.0\CountSameValuesInArray.AssemblyInfoInputs.cache
+D:\HomeWorksSoftUni\repos\CountSameValuesInArray\obj\Debug\net6.0\CountSameValuesInArray.AssemblyInfo.cs
+D:\HomeWorksSoftUni\repos\CountSameValuesInArray\obj\Debug\net6.0\CountSameValuesInArray.csproj.CoreCompileInputs.cache
+D:\HomeWorksSoftUni\repos\CountSameValuesInArray\obj\Debug\net6.0\CountSameValuesInArray.dll
+D:\HomeWorksSoftUni\repos\CountSameValuesInArray\obj\Debug\net6.0\refint\CountSameValuesInArray.dll
+D:\HomeWorksSoftUni\repos\CountSameValuesInArray\obj\Debug\net6.0\CountSameValuesInArray.pdb
+D:\HomeWorksSoftUni\repos\CountSameValuesInArray\obj\Debug\net6.0\CountSameValuesInArray.genruntimeconfig.cache
+D:\HomeWorksSoftUni\repos\CountSameValuesInArray\obj\Debug\net6.0\ref\CountSameValuesInArray.dll

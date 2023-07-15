@@ -1,0 +1,15 @@
+D:\HomeWorksSoftUni\functional\FindEvensOrOdds\bin\Debug\net6.0\FindEvensOrOdds.exe
+D:\HomeWorksSoftUni\functional\FindEvensOrOdds\bin\Debug\net6.0\FindEvensOrOdds.deps.json
+D:\HomeWorksSoftUni\functional\FindEvensOrOdds\bin\Debug\net6.0\FindEvensOrOdds.runtimeconfig.json
+D:\HomeWorksSoftUni\functional\FindEvensOrOdds\bin\Debug\net6.0\FindEvensOrOdds.dll
+D:\HomeWorksSoftUni\functional\FindEvensOrOdds\bin\Debug\net6.0\FindEvensOrOdds.pdb
+D:\HomeWorksSoftUni\functional\FindEvensOrOdds\obj\Debug\net6.0\FindEvensOrOdds.csproj.AssemblyReference.cache
+D:\HomeWorksSoftUni\functional\FindEvensOrOdds\obj\Debug\net6.0\FindEvensOrOdds.GeneratedMSBuildEditorConfig.editorconfig
+D:\HomeWorksSoftUni\functional\FindEvensOrOdds\obj\Debug\net6.0\FindEvensOrOdds.AssemblyInfoInputs.cache
+D:\HomeWorksSoftUni\functional\FindEvensOrOdds\obj\Debug\net6.0\FindEvensOrOdds.AssemblyInfo.cs
+D:\HomeWorksSoftUni\functional\FindEvensOrOdds\obj\Debug\net6.0\FindEvensOrOdds.csproj.CoreCompileInputs.cache
+D:\HomeWorksSoftUni\functional\FindEvensOrOdds\obj\Debug\net6.0\FindEvensOrOdds.dll
+D:\HomeWorksSoftUni\functional\FindEvensOrOdds\obj\Debug\net6.0\refint\FindEvensOrOdds.dll
+D:\HomeWorksSoftUni\functional\FindEvensOrOdds\obj\Debug\net6.0\FindEvensOrOdds.pdb
+D:\HomeWorksSoftUni\functional\FindEvensOrOdds\obj\Debug\net6.0\FindEvensOrOdds.genruntimeconfig.cache
+D:\HomeWorksSoftUni\functional\FindEvensOrOdds\obj\Debug\net6.0\ref\FindEvensOrOdds.dll

@@ -1,0 +1,15 @@
+D:\HomeWorksSoftUni\functional\SortEvenNumbers\bin\Debug\net6.0\SortEvenNumbers.exe
+D:\HomeWorksSoftUni\functional\SortEvenNumbers\bin\Debug\net6.0\SortEvenNumbers.deps.json
+D:\HomeWorksSoftUni\functional\SortEvenNumbers\bin\Debug\net6.0\SortEvenNumbers.runtimeconfig.json
+D:\HomeWorksSoftUni\functional\SortEvenNumbers\bin\Debug\net6.0\SortEvenNumbers.dll
+D:\HomeWorksSoftUni\functional\SortEvenNumbers\bin\Debug\net6.0\SortEvenNumbers.pdb
+D:\HomeWorksSoftUni\functional\SortEvenNumbers\obj\Debug\net6.0\SortEvenNumbers.csproj.AssemblyReference.cache
+D:\HomeWorksSoftUni\functional\SortEvenNumbers\obj\Debug\net6.0\SortEvenNumbers.GeneratedMSBuildEditorConfig.editorconfig
+D:\HomeWorksSoftUni\functional\SortEvenNumbers\obj\Debug\net6.0\SortEvenNumbers.AssemblyInfoInputs.cache
+D:\HomeWorksSoftUni\functional\SortEvenNumbers\obj\Debug\net6.0\SortEvenNumbers.AssemblyInfo.cs
+D:\HomeWorksSoftUni\functional\SortEvenNumbers\obj\Debug\net6.0\SortEvenNumbers.csproj.CoreCompileInputs.cache
+D:\HomeWorksSoftUni\functional\SortEvenNumbers\obj\Debug\net6.0\SortEvenNumbers.dll
+D:\HomeWorksSoftUni\functional\SortEvenNumbers\obj\Debug\net6.0\refint\SortEvenNumbers.dll
+D:\HomeWorksSoftUni\functional\SortEvenNumbers\obj\Debug\net6.0\SortEvenNumbers.pdb
+D:\HomeWorksSoftUni\functional\SortEvenNumbers\obj\Debug\net6.0\SortEvenNumbers.genruntimeconfig.cache
+D:\HomeWorksSoftUni\functional\SortEvenNumbers\obj\Debug\net6.0\ref\SortEvenNumbers.dll

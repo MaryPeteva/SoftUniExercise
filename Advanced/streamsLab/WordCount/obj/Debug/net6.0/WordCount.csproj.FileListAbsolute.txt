@@ -1,0 +1,15 @@
+D:\HomeWorksSoftUni\WordCount\bin\Debug\net6.0\WordCount.exe
+D:\HomeWorksSoftUni\WordCount\bin\Debug\net6.0\WordCount.deps.json
+D:\HomeWorksSoftUni\WordCount\bin\Debug\net6.0\WordCount.runtimeconfig.json
+D:\HomeWorksSoftUni\WordCount\bin\Debug\net6.0\WordCount.dll
+D:\HomeWorksSoftUni\WordCount\bin\Debug\net6.0\WordCount.pdb
+D:\HomeWorksSoftUni\WordCount\obj\Debug\net6.0\WordCount.csproj.AssemblyReference.cache
+D:\HomeWorksSoftUni\WordCount\obj\Debug\net6.0\WordCount.GeneratedMSBuildEditorConfig.editorconfig
+D:\HomeWorksSoftUni\WordCount\obj\Debug\net6.0\WordCount.AssemblyInfoInputs.cache
+D:\HomeWorksSoftUni\WordCount\obj\Debug\net6.0\WordCount.AssemblyInfo.cs
+D:\HomeWorksSoftUni\WordCount\obj\Debug\net6.0\WordCount.csproj.CoreCompileInputs.cache
+D:\HomeWorksSoftUni\WordCount\obj\Debug\net6.0\WordCount.dll
+D:\HomeWorksSoftUni\WordCount\obj\Debug\net6.0\refint\WordCount.dll
+D:\HomeWorksSoftUni\WordCount\obj\Debug\net6.0\WordCount.pdb
+D:\HomeWorksSoftUni\WordCount\obj\Debug\net6.0\WordCount.genruntimeconfig.cache
+D:\HomeWorksSoftUni\WordCount\obj\Debug\net6.0\ref\WordCount.dll

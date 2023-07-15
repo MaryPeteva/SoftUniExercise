@@ -1,0 +1,15 @@
+C:\Users\asss\source\repos\SymbolInMatrix\bin\Debug\net6.0\SymbolInMatrix.exe
+C:\Users\asss\source\repos\SymbolInMatrix\bin\Debug\net6.0\SymbolInMatrix.deps.json
+C:\Users\asss\source\repos\SymbolInMatrix\bin\Debug\net6.0\SymbolInMatrix.runtimeconfig.json
+C:\Users\asss\source\repos\SymbolInMatrix\bin\Debug\net6.0\SymbolInMatrix.dll
+C:\Users\asss\source\repos\SymbolInMatrix\bin\Debug\net6.0\SymbolInMatrix.pdb
+C:\Users\asss\source\repos\SymbolInMatrix\obj\Debug\net6.0\SymbolInMatrix.csproj.AssemblyReference.cache
+C:\Users\asss\source\repos\SymbolInMatrix\obj\Debug\net6.0\SymbolInMatrix.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\asss\source\repos\SymbolInMatrix\obj\Debug\net6.0\SymbolInMatrix.AssemblyInfoInputs.cache
+C:\Users\asss\source\repos\SymbolInMatrix\obj\Debug\net6.0\SymbolInMatrix.AssemblyInfo.cs
+C:\Users\asss\source\repos\SymbolInMatrix\obj\Debug\net6.0\SymbolInMatrix.csproj.CoreCompileInputs.cache
+C:\Users\asss\source\repos\SymbolInMatrix\obj\Debug\net6.0\SymbolInMatrix.dll
+C:\Users\asss\source\repos\SymbolInMatrix\obj\Debug\net6.0\refint\SymbolInMatrix.dll
+C:\Users\asss\source\repos\SymbolInMatrix\obj\Debug\net6.0\SymbolInMatrix.pdb
+C:\Users\asss\source\repos\SymbolInMatrix\obj\Debug\net6.0\SymbolInMatrix.genruntimeconfig.cache
+C:\Users\asss\source\repos\SymbolInMatrix\obj\Debug\net6.0\ref\SymbolInMatrix.dll
