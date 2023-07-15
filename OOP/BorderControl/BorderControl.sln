@@ -1,0 +1,70 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33829.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BorderControl", "BorderControl.csproj", "{3AD34BAC-1EC8-4627-8BC3-FC209260F2B7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "core", "core", "{32E8598C-B782-42A2-833D-B79EBD55DD56}"
+	ProjectSection(SolutionItems) = preProject
+		Engine.cs = Engine.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "IO", "IO", "{79B65C2C-0803-49B3-BDBA-DA66BEF741AB}"
+	ProjectSection(SolutionItems) = preProject
+		Reader.cs = Reader.cs
+		Writer.cs = Writer.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Models", "Models", "{FFADDE04-33C0-4DE7-A908-717C8C715C61}"
+	ProjectSection(SolutionItems) = preProject
+		Human.cs = Human.cs
+		Robot.cs = Robot.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Interfaces", "Interfaces", "{F96EAAF9-A299-4A10-B7F8-F02D923862CC}"
+	ProjectSection(SolutionItems) = preProject
+		IEngine.cs = IEngine.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Interfaces", "Interfaces", "{DA7B6C6C-3EE0-48D2-AFE0-E9A17C14D1D9}"
+	ProjectSection(SolutionItems) = preProject
+		IReader.cs = IReader.cs
+		IWriter.cs = IWriter.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Interfaces", "Interfaces", "{784AE9E0-74F9-406B-AA88-63EDB8A105DC}"
+	ProjectSection(SolutionItems) = preProject
+		IHuman.cs = IHuman.cs
+		IIdentible.cs = IIdentible.cs
+		IRobot.cs = IRobot.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{AEEED7AC-FD16-4C36-88D5-5D13B7C66071}"
+	ProjectSection(SolutionItems) = preProject
+		StartUp.cs = StartUp.cs
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3AD34BAC-1EC8-4627-8BC3-FC209260F2B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3AD34BAC-1EC8-4627-8BC3-FC209260F2B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3AD34BAC-1EC8-4627-8BC3-FC209260F2B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3AD34BAC-1EC8-4627-8BC3-FC209260F2B7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F96EAAF9-A299-4A10-B7F8-F02D923862CC} = {32E8598C-B782-42A2-833D-B79EBD55DD56}
+		{DA7B6C6C-3EE0-48D2-AFE0-E9A17C14D1D9} = {79B65C2C-0803-49B3-BDBA-DA66BEF741AB}
+		{784AE9E0-74F9-406B-AA88-63EDB8A105DC} = {FFADDE04-33C0-4DE7-A908-717C8C715C61}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {60590DB0-9ED4-4CD7-94C1-66DE215A84CC}
+	EndGlobalSection
+EndGlobal

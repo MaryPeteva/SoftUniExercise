@@ -1,0 +1,24 @@
+using System;
+
+namespace BackIn30Minutes
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+             int hours = int.Parse(Console.ReadLine());
+             int minutes = int.Parse(Console.ReadLine());
+            int minutesPlus = minutes + 30;
+            if (minutesPlus > 59)
+            {
+                minutesPlus -= 60;
+                hours += 1;
+                if (hours > 23)
+                {
+                    hours -= 24;
+                }
+            }
+            Console.WriteLine($"{hours}:{minutesPlus:D2}");
+        }
+    }
+}

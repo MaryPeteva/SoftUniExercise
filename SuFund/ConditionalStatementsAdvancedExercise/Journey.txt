@@ -1,0 +1,65 @@
+using System;
+
+namespace Journey
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            double budget = double.Parse(Console.ReadLine());
+            string season = Console.ReadLine();
+            string destination = "";
+            string type = "";
+            double spend = 0.0;
+            switch (season)
+            {
+                case "summer":// budget <= 100лв.България
+                    if (budget <= 100.00) //Лято – 30 % от бюджета
+                    {
+                        destination = "Bulgaria";
+                        type = "Camp";
+                        spend = budget * 0.3;
+                    }
+                    else if (budget<=1000.00) //budget <= 1000лв.Балканите Лято – 40 % от бюджета
+                    {
+                        destination = "Balkans";
+                        type = "Camp";
+                        spend = budget * 0.4;
+                    }
+                    else if (budget > 1000.00)
+                    {
+                        destination = "Europe";
+                        type = "Hotel";
+                        spend = budget * 0.9;
+                    }
+                        break;
+                case "winter":
+                    if (budget <= 100.00)// budget <= 100лв.България Зима – 70 % от бюджета
+                    {
+                        destination = "Bulgaria";
+                        type = "Hotel";
+                        spend = budget * 0.7;
+                    }
+                    else if (budget <= 1000.00) //budget <= 1000лв.Балканите//Зима – 80 % от бюджета
+                    {
+                        destination = "Balkans";
+                        type = "Hotel";
+                        spend = budget * 0.8;
+                    }
+                    else if (budget > 1000.00)//budget > 1000лв.Европа//90 % от бюджета
+                    {
+                        destination = "Europe";
+                        type = "Hotel";
+                        spend = budget * 0.9;
+                    }                             
+                    break;
+            }
+            if (spend <= budget)
+            {
+                double left = budget - spend;
+                Console.WriteLine($"Somewhere in {destination}");
+                Console.WriteLine($"{type} - {spend:F2}");
+            } 
+        }
+    }
+}

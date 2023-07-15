@@ -1,0 +1,34 @@
+using System;
+
+namespace FruitMarket
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            double strawberryPrice = double.Parse(Console.ReadLine());
+            double banana = double.Parse(Console.ReadLine());
+            double orange = double.Parse(Console.ReadLine());
+            double raspberry = double.Parse(Console.ReadLine());
+            double strawberry = double.Parse(Console.ReadLine());
+            double raspberryPrice = strawberryPrice / 2;
+            //килограм: 24 – (0.4 * 24) = 14.4 лв.
+            double raspberryPrice1 = (raspberryPrice);
+            double orangePrice = raspberryPrice1 - ( 0.4 * raspberryPrice1 );
+            double bananaPrice = raspberryPrice1 - (0.8 * raspberryPrice1);
+            double raspberrySuma = raspberry * raspberryPrice1;
+            // Сума за портокалите: 3.3 * 14.4 = 47.52 лв.
+            double orangeSuma = orange * orangePrice;
+            //Сума за бананите:4.8 * 10 = 48 лв.
+            double bananaSuma = banana * bananaPrice;
+            //Сума за ягодите: 1.7 * 48 = 81.6 лв.
+            double strawberrySuma = strawberry * strawberryPrice;
+            double finalPrice = raspberrySuma + orangeSuma + bananaSuma + strawberrySuma;
+            Console.WriteLine(finalPrice);
+
+
+
+        }
+    }
+}
+f

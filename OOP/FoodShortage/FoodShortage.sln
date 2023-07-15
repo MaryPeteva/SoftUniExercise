@@ -1,0 +1,66 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33829.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FoodShortage", "FoodShortage.csproj", "{71802E23-B183-49D9-8DD0-E0C2533B4B15}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "core", "core", "{ECBE34C1-E9A9-4BC6-852A-8C0AC6E77911}"
+	ProjectSection(SolutionItems) = preProject
+		Engine.cs = Engine.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "IO", "IO", "{E51C3C54-84CD-4607-ACC4-1D11B09BA5CD}"
+	ProjectSection(SolutionItems) = preProject
+		Reader.cs = Reader.cs
+		Writer.cs = Writer.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Models", "Models", "{77408043-C70A-45B2-B587-BCD375CFDB88}"
+	ProjectSection(SolutionItems) = preProject
+		Citizen.cs = Citizen.cs
+		Rebel.cs = Rebel.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Interfaces", "Interfaces", "{EA4FE64E-34E3-4E15-9ED5-F68E163998B7}"
+	ProjectSection(SolutionItems) = preProject
+		IEngine.cs = IEngine.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Interfaces", "Interfaces", "{FDA61986-E49F-4903-910D-FF1E9255806B}"
+	ProjectSection(SolutionItems) = preProject
+		IReader.cs = IReader.cs
+		IWriter.cs = IWriter.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Interfaces", "Interfaces", "{B613BED6-6E35-4CCA-9F4F-FD45053FCD2F}"
+	ProjectSection(SolutionItems) = preProject
+		IBuyer.cs = IBuyer.cs
+		ICitzen.cs = ICitzen.cs
+		IHuman.cs = IHuman.cs
+		IRebel.cs = IRebel.cs
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{71802E23-B183-49D9-8DD0-E0C2533B4B15}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71802E23-B183-49D9-8DD0-E0C2533B4B15}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71802E23-B183-49D9-8DD0-E0C2533B4B15}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71802E23-B183-49D9-8DD0-E0C2533B4B15}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{EA4FE64E-34E3-4E15-9ED5-F68E163998B7} = {ECBE34C1-E9A9-4BC6-852A-8C0AC6E77911}
+		{FDA61986-E49F-4903-910D-FF1E9255806B} = {E51C3C54-84CD-4607-ACC4-1D11B09BA5CD}
+		{B613BED6-6E35-4CCA-9F4F-FD45053FCD2F} = {77408043-C70A-45B2-B587-BCD375CFDB88}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {184F5763-76E7-41F7-B911-F903A2B150D2}
+	EndGlobalSection
+EndGlobal

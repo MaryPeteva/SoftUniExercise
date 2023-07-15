@@ -1,0 +1,52 @@
+using System;
+
+namespace MathOperations
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            double numOne = double.Parse(Console.ReadLine());
+            string operators = Console.ReadLine();
+            double numTwo = double.Parse(Console.ReadLine());
+            double result = 0.0;
+            switch (operators)
+            {
+                case "/":
+                    result = Divide(numOne,numTwo);
+                    break;
+                case "*":
+                    result = Multiply(numOne, numTwo);
+                    break;
+                case "-":
+                    result = Subtract(numOne,numTwo);
+                    break;
+                case "+":
+                    result = Add(numOne,numTwo);
+                    break;
+            }
+
+            Console.WriteLine(result);
+        }
+
+        private static double Add(double numOne, double numTwo)
+        {
+            return numOne + numTwo;
+        }
+
+        private static double Subtract(double numOne, double numTwo)
+        {
+            return Math.Abs(numOne - numTwo);
+        }
+
+        private static double Divide(double numOne, double numTwo)
+        {
+            return numOne / numTwo;
+        }
+
+        private static double Multiply(double numOne, double numTwo)
+        {
+            return numOne * numTwo;
+        }
+    }
+}

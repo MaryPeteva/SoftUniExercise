@@ -1,0 +1,46 @@
+using System;
+
+namespace RageExpenses
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int lostGames = int.Parse(Console.ReadLine());
+            double headsetPrice = double.Parse(Console.ReadLine());
+            double moucePrice = double.Parse(Console.ReadLine());
+            double keyboardPrice = double.Parse(Console.ReadLine());
+            double displayPrice = double.Parse(Console.ReadLine());
+            double sum = 0.0;
+            int headCount = 0;
+            int mouceCount = 0;
+            int keyboardCount = 0;
+            for (int i = 1; i <= lostGames; i++)
+            {
+                headCount++;
+                mouceCount++;
+                if (headCount % 2 == 0)
+                {
+                    sum += headsetPrice;
+                    if (mouceCount % 3 == 0)
+                    {
+                        sum += moucePrice;
+                        sum += keyboardPrice;
+                        keyboardCount++;
+                        if (keyboardCount % 2 == 0)
+                        {
+                            sum += displayPrice;
+                        }
+                    }
+                }
+                else if (mouceCount % 3 == 0)
+                {
+                    sum += moucePrice;
+                }
+
+            }
+            Console.WriteLine($"Rage expenses: {sum:F2} lv.");
+
+        }
+    }
+}

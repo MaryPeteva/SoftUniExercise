@@ -1,0 +1,28 @@
+using System;
+
+namespace WaterOverflow
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            //water tank with capacity of 255 liters byte
+            //lines sbyte
+            //short	liters 
+            byte capacity = 255;
+            sbyte lines = sbyte.Parse(Console.ReadLine());
+            short litersIn = 0;
+            for (int i = 1; i <= lines; i++)
+            {
+                short liters = short.Parse(Console.ReadLine());
+                litersIn += liters;
+                if (litersIn > capacity)
+                {
+                    litersIn -= liters;
+                    Console.WriteLine("Insufficient capacity!");
+                }
+            }
+            Console.WriteLine(litersIn);
+        }
+    }
+}

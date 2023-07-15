@@ -1,0 +1,47 @@
+using System;
+
+namespace CounterStrike
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int energy = int.Parse(Console.ReadLine());
+            string input = String.Empty;
+            int winCount = 0;
+            bool isEnergyEnought = true;
+            while ((input = Console.ReadLine()) != "End of battle")
+            {
+                int distance = int.Parse(input);
+
+
+                if (energy < distance)
+                {
+                    
+                    Console.WriteLine($"Not enough energy! Game ends with {winCount} won battles and {energy} energy");
+                    return;
+                }
+
+                winCount++;
+                energy -= distance;
+                
+                if (winCount % 3 == 0)
+                {
+                    energy += winCount;
+                }
+
+
+            }
+
+            if (energy < 0)
+            {
+                energy = 0;
+            }
+
+            if (isEnergyEnought)
+            {
+                Console.WriteLine($"Won battles: {winCount}. Energy left: {energy}");
+            }
+        }
+    }
+}

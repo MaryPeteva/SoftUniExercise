@@ -1,0 +1,21 @@
+using System;
+
+namespace ChangeBureau
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            double bitCoinAm = double.Parse(Console.ReadLine());
+            double yuanAm = double.Parse(Console.ReadLine());
+            double comission = double.Parse(Console.ReadLine());
+            double bitCoin = bitCoinAm * 1168;
+            double yuan = (yuanAm * 0.15) * 1.76;
+            double sum = (bitCoin + yuan)/1.95;
+            double totalSum = sum - ((sum * comission) / 100);
+            Console.WriteLine($"{totalSum:F2}");
+
+
+        }
+    }
+}

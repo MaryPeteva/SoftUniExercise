@@ -1,0 +1,39 @@
+using System;
+
+namespace BonusPoints
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int num = int.Parse(Console.ReadLine());
+            double bonus1 = 0.0;
+            if (num <= 100)
+            {
+                bonus1 = 5;
+            }
+            else if (num > 1000)
+            {
+                bonus1 = num * 0.1;
+            }
+            else
+            {
+                bonus1 = num * 0.2;
+            }
+            double bonus2 = 0.0;
+            if (num % 2 == 0)
+            {
+                bonus2 = + 1;
+            }
+
+            double bonus3 = 0.0;
+            if (num % 10 == 5)
+            {
+                bonus3 = + 2;
+            }
+            double totalBonus = bonus1 + bonus2 + bonus3;
+            Console.WriteLine(totalBonus);
+            Console.WriteLine(num + totalBonus);
+        }
+    }
+}f

@@ -1,0 +1,29 @@
+using System;
+
+namespace Volleyball
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            string year = Console.ReadLine();
+            double holidays = double.Parse(Console.ReadLine());
+            double weekndHome = double.Parse(Console.ReadLine());
+            double weeknd = 48;
+            double weekndSof = weeknd - weekndHome;
+            double satPlay = (weekndSof * 3) / 4;
+            double sunPlay = weekndHome;
+            double holidayPlay = (holidays * 2) / 3;
+            double totalPlay = satPlay + sunPlay + holidayPlay;
+            switch (year)
+            {
+                case "leap":
+                    Console.WriteLine(Math.Floor(totalPlay + (totalPlay*0.15)));
+                    break;
+                case "normal":
+                    Console.WriteLine(Math.Floor(totalPlay));
+                    break;
+            }
+        }
+    }
+}

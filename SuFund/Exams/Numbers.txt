@@ -1,0 +1,53 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+
+namespace Numbers
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int[] numbers = Console.ReadLine().Split(" ", StringSplitOptions.RemoveEmptyEntries)
+                                               .Select(int.Parse)
+                                               .ToArray();
+            int sum = numbers.Sum();
+            int count = numbers.Length;
+            double averageNum = (double)sum / count;
+            List<int> top = new List<int>();
+            bool isNone = false;
+            for (int i = 0; i < numbers.Length; i++)
+            {
+                if (numbers[i] > averageNum)
+                {
+                    top.Add(numbers[i]);
+                }
+
+            }
+
+
+            top.Sort();
+            top.Reverse();
+            int sum2 = top.Sum();
+            if (sum2 == 0)
+            {
+                Console.WriteLine("No");
+            }
+            else
+            {
+                if (top.Count > 5)
+                {
+                    for (int i = 0; i < 5; i++)
+                    {
+                        Console.Write($"{top[i]} ");
+                    }
+                }
+                else
+                {
+                    Console.WriteLine(String.Join(" ",top));
+                }
+            }
+
+        }
+    }
+}

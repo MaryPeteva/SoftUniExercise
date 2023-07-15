@@ -1,0 +1,70 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33829.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Telephony", "Telephony.csproj", "{488578E7-EFF7-440D-BA24-3EF1A740D91D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "core", "core", "{799DA16A-3196-4494-ACEF-416653CFAAB2}"
+	ProjectSection(SolutionItems) = preProject
+		Engine.cs = Engine.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "IO", "IO", "{6BF88183-174B-4555-B5C5-D36D30A2F8FD}"
+	ProjectSection(SolutionItems) = preProject
+		ConsoleReader.cs = ConsoleReader.cs
+		ConsoleWriter.cs = ConsoleWriter.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Models", "Models", "{CAD94E56-E66B-4A95-B3F1-3E3181BE5F8B}"
+	ProjectSection(SolutionItems) = preProject
+		Smartphone.cs = Smartphone.cs
+		StationaryPhone.cs = StationaryPhone.cs
+		Validations.cs = Validations.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{045DACF8-7788-407D-9F92-84723DA2562F}"
+	ProjectSection(SolutionItems) = preProject
+		StartUp.cs = StartUp.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Interfaces", "Interfaces", "{8AEA7E12-80A9-4F14-B71D-3493780012DE}"
+	ProjectSection(SolutionItems) = preProject
+		IReader.cs = IReader.cs
+		IWriter.cs = IWriter.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Interfaces", "Interfaces", "{4D9C408C-D164-41D1-99DA-D0D0E4D4B30A}"
+	ProjectSection(SolutionItems) = preProject
+		IBrowsable.cs = IBrowsable.cs
+		ICallable.cs = ICallable.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Interfaces", "Interfaces", "{D4AA21E5-1E63-403C-A2E8-54EDC4C9FE53}"
+	ProjectSection(SolutionItems) = preProject
+		IEngine.cs = IEngine.cs
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{488578E7-EFF7-440D-BA24-3EF1A740D91D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{488578E7-EFF7-440D-BA24-3EF1A740D91D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{488578E7-EFF7-440D-BA24-3EF1A740D91D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{488578E7-EFF7-440D-BA24-3EF1A740D91D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8AEA7E12-80A9-4F14-B71D-3493780012DE} = {6BF88183-174B-4555-B5C5-D36D30A2F8FD}
+		{4D9C408C-D164-41D1-99DA-D0D0E4D4B30A} = {CAD94E56-E66B-4A95-B3F1-3E3181BE5F8B}
+		{D4AA21E5-1E63-403C-A2E8-54EDC4C9FE53} = {799DA16A-3196-4494-ACEF-416653CFAAB2}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D0C6DB90-F47F-4119-898D-C086DAB4FE85}
+	EndGlobalSection
+EndGlobal

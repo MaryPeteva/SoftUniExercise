@@ -1,0 +1,94 @@
+using System;
+
+namespace FishingBoat
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            //budget
+            double budget = double.Parse(Console.ReadLine());
+            //season Spring,Summer, Autumn, "Winter"
+            string season = Console.ReadLine();
+            //fisherman
+            int fisheman = int.Parse(Console.ReadLine());
+            //Цената зависи от сезона:
+            //пролетта е 3000 лв.
+            double springPrice = 3000.00;
+            //лятото и есента е 4200 лв.
+            double summerFallPrice = 4200.00;
+            //зимата е 2600 лв.
+            double winterPrice = 2600.00;
+            double price = 0.0;
+            double totalPrice = 0.0;
+            switch (season)
+            {
+                case "Spring":
+                    if (fisheman <= 6)
+                    {
+                        price = springPrice - (springPrice * 0.1);
+                    }
+                    else if(fisheman >= 7 && fisheman <= 11)
+                    {
+                        price = springPrice - (springPrice * 0.15);
+                    }
+                    else if (fisheman >= 12)
+                    {
+                        price = springPrice - (springPrice * 0.25);
+                    }
+                    break;
+                case "Summer":
+                case "Autumn":
+                    if (fisheman <= 6)
+                    {
+                        price = summerFallPrice - (summerFallPrice * 0.1);
+                    }
+                    else if (fisheman >= 7 && fisheman <= 11)
+                    {
+                        price = summerFallPrice - (summerFallPrice * 0.15);
+                    }
+                    else if (fisheman >= 12)
+                    {
+                        price = summerFallPrice - (summerFallPrice * 0.25);
+                    }
+                    break;
+                case "Winter":
+                    if (fisheman <= 6)
+                    {
+                        price = winterPrice - (winterPrice * 0.1);
+                    }
+                    else if (fisheman >= 7 && fisheman <= 11)
+                    {
+                        price = winterPrice - (winterPrice * 0.15);
+                    }
+                    else if (fisheman >= 12)
+                    {
+                        price = winterPrice - (winterPrice * 0.25);
+                    }
+                    break;
+            }
+            if (fisheman % 2 == 0 && season != "Autumn")
+            {
+                totalPrice = price - (price * 0.05);
+            }
+            else
+            {
+                totalPrice = price;
+            }
+            if (totalPrice <= budget)
+            {
+                Console.WriteLine($"Yes! You have {budget - totalPrice:F2} leva left.");
+            }
+            else
+            {
+                Console.WriteLine($"Not enough money! You need {totalPrice - budget:F2} leva.");
+            }
+            //В зависимост от броя си групата ползва отстъпка:
+            //до 6 човека включително – отстъпка от 10 %.
+            //от 7 до 11 човека включително – отстъпка от 15 %.
+            //от 12 нагоре – отстъпка от 25 %.
+            //допълнително 5 % отстъпка, ако са четен брой освен ако не е есен - тогава нямат
+            // която се начислява след като се приспадне отстъпката по горните критерии.
+        }
+    }
+}

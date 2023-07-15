@@ -1,0 +1,47 @@
+using System;
+
+namespace ExamPreparation
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            double poorGrades = double.Parse(Console.ReadLine());
+            double poorGradeCount = 0;
+            double problemsCount = 0;
+            double sumGrade = 0;
+            string lastName = "";
+            bool isFailed = true;
+            while(poorGradeCount < poorGrades)
+            {
+                string name = Console.ReadLine();
+               
+                if ("Enough" == name)
+                {
+                    isFailed = false;
+                    break;
+                }
+                double grade = double.Parse(Console.ReadLine());
+                if (grade<= 4)
+                {
+                    poorGradeCount++;
+                }
+                sumGrade += grade;
+                problemsCount++;
+                lastName = name;
+
+            }
+            if(isFailed)
+            {
+                Console.WriteLine($"You need a break, {poorGradeCount} poor grades.");
+            }
+            else
+            {
+                double average = sumGrade / problemsCount;
+                    Console.WriteLine($"Average score: {average:F2}");
+                Console.WriteLine($"Number of problems: {problemsCount}");
+                Console.WriteLine($"Last problem: {lastName}");
+            }
+        }
+    }
+}

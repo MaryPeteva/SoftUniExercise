@@ -1,0 +1,31 @@
+using System;
+
+namespace BonusScoringSystem
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int students = int.Parse(Console.ReadLine());
+            int lectures = int.Parse(Console.ReadLine());
+            int bonus = int.Parse(Console.ReadLine());
+            //{total bonus} = {student attendances} / {course lectures} * (5 + {additional bonus})
+            int maxBonus = 0;
+            int maxAtt = 0;
+
+            for (int i = 0; i < students; i++)
+            {
+                int attendances = int.Parse(Console.ReadLine());
+                double currBonus = Math.Ceiling((double)attendances / lectures * (5 + bonus));
+                if (currBonus > maxBonus)
+                {
+                    maxBonus = (int)currBonus;
+                    maxAtt = attendances;
+                }
+
+            }
+
+            Console.WriteLine($"Max Bonus: {maxBonus}.\nThe student has attended {maxAtt} lectures.");
+        }
+    }
+}

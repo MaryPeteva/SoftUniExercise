@@ -1,0 +1,49 @@
+using System;
+
+namespace ComputerStore
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            string input = Console.ReadLine();
+            double bill = 0.0;
+            double totalTax = 0.0;
+            double price = 0.0;
+            while ((input != "special") && (input != "regular"))
+            {
+                price = double.Parse(input);
+                if (price <= 0.0)
+                {
+                    Console.WriteLine("Invalid price!");
+                }
+                else
+                {
+                    bill += price;
+                    double tax = price * 0.2;
+                    totalTax += tax;
+                }
+
+                input = Console.ReadLine();
+            }
+
+            double totalBill = totalTax + bill;
+            if (input == "special")
+            {
+                totalBill -= totalBill * 0.1;
+            }
+
+            if (totalBill <= 0)
+            {
+                Console.WriteLine("Invalid order!");
+            }
+            else
+            {
+                Console.WriteLine($"Congratulations you've just bought a new computer!\n" +
+                             $"Price without taxes: {bill:F2}$\n" +
+                             $"Taxes: {totalTax:F2}$\n-----------\n" +
+                             $"Total price: {totalBill:F2}$");
+            }
+        }
+    }
+}

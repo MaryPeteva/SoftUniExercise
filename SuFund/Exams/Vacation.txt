@@ -1,0 +1,135 @@
+using System;
+
+namespace Vacation
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int people = int.Parse(Console.ReadLine());
+            string typeGroup = Console.ReadLine();
+            string day = Console.ReadLine();
+            double price = 0.0;
+            //	            Friday	Saturday	Sunday
+            //Students      8.45       9.80      10.46
+            //Business      10.90      15.60      16
+            //Regular         15       20         22.50
+            switch (day)
+            {
+                case "Friday":
+                    switch (typeGroup)
+                    {
+                        case "Students":
+                            if (people >= 30)
+                            {
+                                price = (8.45 * people) - ((8.45 * people) * 0.15);
+                            }
+                            else
+                            {
+                                price = 8.45 * people;
+                            }
+                            break;
+                        case "Business":
+                            if (people >= 100)
+                            {
+                                people -= 10;
+                                price = people * 10.90;
+                            }
+                            else
+                            {
+                                price = people * 10.90;
+                            }
+                            break;
+                        case "Regular":
+                            if(people>=10 && people <= 20)
+                            {
+                                price = (15 * people) - ((15 * people) * 0.05);
+                            }
+                            else
+                            {
+                                price = 15 * people;
+                            }
+                            break;
+
+                    }
+                    break;
+                case "Saturday":
+                    switch (typeGroup)
+                    {
+                        case "Students":
+                            if (people >= 30)
+                            {
+                                price = (9.80 * people) - ((9.80 * people) * 0.15);
+                            }
+                            else
+                            {
+                                price = 9.80 * people;
+                            }
+                            break;
+                        case "Business":
+                            if (people >= 100)
+                            {
+                                people -= 10;
+                                price = people * 15.60;
+                            }
+                            else
+                            {
+                                price = people * 15.60;
+                            }
+                            break;
+                        case "Regular":
+                            if (people >= 10 && people <= 20)
+                            {
+                                price = (20 * people) - ((20 * people) * 0.05);
+                            }
+                            else
+                            {
+                                price = 20 * people;
+                            }
+                            break;
+
+                    }
+                    break;
+                case "Sunday":
+                    switch (typeGroup)
+                    {
+                        case "Students":
+                            if (people >= 30)
+                            {
+                                price = (10.46 * people) - ((10.46 * people) * 0.15);
+                            }
+                            else
+                            {
+                                price = 10.46 * people;
+                            }
+                            break;
+                        case "Business":
+                            if (people >= 100)
+                            {
+                                people -= 10;
+                                price = people * 16;
+                            }
+                            else
+                            {
+                                price = people * 16;
+                            }
+                            break;
+                        case "Regular":
+                            if (people >= 10 && people <= 20)
+                            {
+                                price = (22.50 * people) - ((22.50 * people) * 0.05);
+                            }
+                            else
+                            {
+                                price = 22.50 * people;
+                            }
+                            break;
+
+                    }
+                    break;
+            }
+            Console.WriteLine($"Total price: {price:F2}");
+
+        }
+    }
+}

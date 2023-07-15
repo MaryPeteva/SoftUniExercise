@@ -1,0 +1,32 @@
+using System;
+
+namespace CharactersInRange
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            char first = char.Parse(Console.ReadLine());
+            char second = char.Parse(Console.ReadLine());
+
+            PrintChars(first, second);
+        }
+
+        private static void PrintChars(char first, char second)
+        {
+            char temp = ' ';
+            if (first > second)
+            {
+                temp = second;
+                second = first;
+                first = temp;
+            }
+
+            for (int i = first + 1; i < second; i++)
+            {
+                char ch = (char)i;
+                Console.Write($"{ch} ");
+            }
+        }
+    }
+}

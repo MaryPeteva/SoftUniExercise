@@ -1,0 +1,29 @@
+using System;
+
+namespace WorldSwimmingRecord
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            //Рекордът в секунди – реално число в интервала [0.00 … 100000.00]
+            double record = double.Parse(Console.ReadLine());
+            // 2.Разстоянието в метри – реално число в интервала[0.00 … 100000.00]
+            double lenght = double.Parse(Console.ReadLine());
+            //3.Времето в секунди, за което плува разстояние от 1 м. - реално число в интервала
+            double time1meter = double.Parse(Console.ReadLine());
+            double time = lenght * time1meter;
+            double slowDown = Math.Floor(lenght / 15) * 12.5;
+            double totalTime = time + slowDown;
+            if (totalTime < record)
+            {
+                Console.WriteLine($"Yes, he succeeded! The new world record is {(totalTime):f2} seconds.");
+            }
+            else
+            {
+                double difference = totalTime - record;
+                Console.WriteLine($"No, he failed! He was {(difference):f2} seconds slower.");
+            }
+        }
+    }
+}

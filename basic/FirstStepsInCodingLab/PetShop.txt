@@ -1,0 +1,18 @@
+using System;
+
+namespace PetShop
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            var dog = int.Parse(Console.ReadLine());
+            var notDog = int.Parse(Console.ReadLine());
+            double dogFood = dog * 2.5;
+            double notDogFood = notDog * 4;
+            double food = dogFood + notDogFood;
+            Console.WriteLine($"{food} lv.");
+        }
+    }
+}
+f

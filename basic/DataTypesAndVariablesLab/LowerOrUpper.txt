@@ -1,0 +1,22 @@
+using System;
+
+namespace LowerOrUpper
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            char character = char.Parse(Console.ReadLine());
+            foreach (byte b in System.Text.Encoding.UTF8.GetBytes(character.ToString()))
+                if (b >= 64 && b <= 90)
+                {
+                    Console.WriteLine("upper-case");
+                }
+                else
+                {
+                    Console.WriteLine("lower-case");
+                }
+
+        }
+    }
+}
