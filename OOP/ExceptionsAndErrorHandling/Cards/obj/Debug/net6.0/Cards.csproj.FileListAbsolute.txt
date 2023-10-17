@@ -1,0 +1,15 @@
+D:\HomeWorksSoftUni\OOP\ExceptionsAndErrorHandling\Cards\bin\Debug\net6.0\Cards.exe
+D:\HomeWorksSoftUni\OOP\ExceptionsAndErrorHandling\Cards\bin\Debug\net6.0\Cards.deps.json
+D:\HomeWorksSoftUni\OOP\ExceptionsAndErrorHandling\Cards\bin\Debug\net6.0\Cards.runtimeconfig.json
+D:\HomeWorksSoftUni\OOP\ExceptionsAndErrorHandling\Cards\bin\Debug\net6.0\Cards.dll
+D:\HomeWorksSoftUni\OOP\ExceptionsAndErrorHandling\Cards\bin\Debug\net6.0\Cards.pdb
+D:\HomeWorksSoftUni\OOP\ExceptionsAndErrorHandling\Cards\obj\Debug\net6.0\Cards.csproj.AssemblyReference.cache
+D:\HomeWorksSoftUni\OOP\ExceptionsAndErrorHandling\Cards\obj\Debug\net6.0\Cards.GeneratedMSBuildEditorConfig.editorconfig
+D:\HomeWorksSoftUni\OOP\ExceptionsAndErrorHandling\Cards\obj\Debug\net6.0\Cards.AssemblyInfoInputs.cache
+D:\HomeWorksSoftUni\OOP\ExceptionsAndErrorHandling\Cards\obj\Debug\net6.0\Cards.AssemblyInfo.cs
+D:\HomeWorksSoftUni\OOP\ExceptionsAndErrorHandling\Cards\obj\Debug\net6.0\Cards.csproj.CoreCompileInputs.cache
+D:\HomeWorksSoftUni\OOP\ExceptionsAndErrorHandling\Cards\obj\Debug\net6.0\Cards.dll
+D:\HomeWorksSoftUni\OOP\ExceptionsAndErrorHandling\Cards\obj\Debug\net6.0\refint\Cards.dll
+D:\HomeWorksSoftUni\OOP\ExceptionsAndErrorHandling\Cards\obj\Debug\net6.0\Cards.pdb
+D:\HomeWorksSoftUni\OOP\ExceptionsAndErrorHandling\Cards\obj\Debug\net6.0\Cards.genruntimeconfig.cache
+D:\HomeWorksSoftUni\OOP\ExceptionsAndErrorHandling\Cards\obj\Debug\net6.0\ref\Cards.dll

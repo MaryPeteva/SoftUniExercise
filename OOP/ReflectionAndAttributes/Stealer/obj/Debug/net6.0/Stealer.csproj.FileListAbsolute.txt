@@ -1,0 +1,15 @@
+D:\HomeWorksSoftUni\OOP\ReflectionAndAttributes\Stealer\bin\Debug\net6.0\Stealer.exe
+D:\HomeWorksSoftUni\OOP\ReflectionAndAttributes\Stealer\bin\Debug\net6.0\Stealer.deps.json
+D:\HomeWorksSoftUni\OOP\ReflectionAndAttributes\Stealer\bin\Debug\net6.0\Stealer.runtimeconfig.json
+D:\HomeWorksSoftUni\OOP\ReflectionAndAttributes\Stealer\bin\Debug\net6.0\Stealer.dll
+D:\HomeWorksSoftUni\OOP\ReflectionAndAttributes\Stealer\bin\Debug\net6.0\Stealer.pdb
+D:\HomeWorksSoftUni\OOP\ReflectionAndAttributes\Stealer\obj\Debug\net6.0\Stealer.csproj.AssemblyReference.cache
+D:\HomeWorksSoftUni\OOP\ReflectionAndAttributes\Stealer\obj\Debug\net6.0\Stealer.GeneratedMSBuildEditorConfig.editorconfig
+D:\HomeWorksSoftUni\OOP\ReflectionAndAttributes\Stealer\obj\Debug\net6.0\Stealer.AssemblyInfoInputs.cache
+D:\HomeWorksSoftUni\OOP\ReflectionAndAttributes\Stealer\obj\Debug\net6.0\Stealer.AssemblyInfo.cs
+D:\HomeWorksSoftUni\OOP\ReflectionAndAttributes\Stealer\obj\Debug\net6.0\Stealer.csproj.CoreCompileInputs.cache
+D:\HomeWorksSoftUni\OOP\ReflectionAndAttributes\Stealer\obj\Debug\net6.0\Stealer.dll
+D:\HomeWorksSoftUni\OOP\ReflectionAndAttributes\Stealer\obj\Debug\net6.0\refint\Stealer.dll
+D:\HomeWorksSoftUni\OOP\ReflectionAndAttributes\Stealer\obj\Debug\net6.0\Stealer.pdb
+D:\HomeWorksSoftUni\OOP\ReflectionAndAttributes\Stealer\obj\Debug\net6.0\Stealer.genruntimeconfig.cache
+D:\HomeWorksSoftUni\OOP\ReflectionAndAttributes\Stealer\obj\Debug\net6.0\ref\Stealer.dll

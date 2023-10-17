@@ -1,0 +1,15 @@
+D:\HomeWorksSoftUni\OOP\InterfaceAndAbStraction\FoodShortage\obj\Debug\net6.0\FoodShortage.csproj.AssemblyReference.cache
+D:\HomeWorksSoftUni\OOP\InterfaceAndAbStraction\FoodShortage\obj\Debug\net6.0\FoodShortage.GeneratedMSBuildEditorConfig.editorconfig
+D:\HomeWorksSoftUni\OOP\InterfaceAndAbStraction\FoodShortage\obj\Debug\net6.0\FoodShortage.AssemblyInfoInputs.cache
+D:\HomeWorksSoftUni\OOP\InterfaceAndAbStraction\FoodShortage\obj\Debug\net6.0\FoodShortage.AssemblyInfo.cs
+D:\HomeWorksSoftUni\OOP\InterfaceAndAbStraction\FoodShortage\obj\Debug\net6.0\FoodShortage.csproj.CoreCompileInputs.cache
+D:\HomeWorksSoftUni\OOP\InterfaceAndAbStraction\FoodShortage\bin\Debug\net6.0\FoodShortage.exe
+D:\HomeWorksSoftUni\OOP\InterfaceAndAbStraction\FoodShortage\bin\Debug\net6.0\FoodShortage.deps.json
+D:\HomeWorksSoftUni\OOP\InterfaceAndAbStraction\FoodShortage\bin\Debug\net6.0\FoodShortage.runtimeconfig.json
+D:\HomeWorksSoftUni\OOP\InterfaceAndAbStraction\FoodShortage\bin\Debug\net6.0\FoodShortage.dll
+D:\HomeWorksSoftUni\OOP\InterfaceAndAbStraction\FoodShortage\bin\Debug\net6.0\FoodShortage.pdb
+D:\HomeWorksSoftUni\OOP\InterfaceAndAbStraction\FoodShortage\obj\Debug\net6.0\FoodShortage.dll
+D:\HomeWorksSoftUni\OOP\InterfaceAndAbStraction\FoodShortage\obj\Debug\net6.0\refint\FoodShortage.dll
+D:\HomeWorksSoftUni\OOP\InterfaceAndAbStraction\FoodShortage\obj\Debug\net6.0\FoodShortage.pdb
+D:\HomeWorksSoftUni\OOP\InterfaceAndAbStraction\FoodShortage\obj\Debug\net6.0\FoodShortage.genruntimeconfig.cache
+D:\HomeWorksSoftUni\OOP\InterfaceAndAbStraction\FoodShortage\obj\Debug\net6.0\ref\FoodShortage.dll

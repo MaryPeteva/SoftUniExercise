@@ -1,0 +1,15 @@
+D:\HomeWorksSoftUni\OOP\an\animals\bin\Debug\net6.0\animals.exe
+D:\HomeWorksSoftUni\OOP\an\animals\bin\Debug\net6.0\animals.deps.json
+D:\HomeWorksSoftUni\OOP\an\animals\bin\Debug\net6.0\animals.runtimeconfig.json
+D:\HomeWorksSoftUni\OOP\an\animals\bin\Debug\net6.0\animals.dll
+D:\HomeWorksSoftUni\OOP\an\animals\bin\Debug\net6.0\animals.pdb
+D:\HomeWorksSoftUni\OOP\an\animals\obj\Debug\net6.0\animals.csproj.AssemblyReference.cache
+D:\HomeWorksSoftUni\OOP\an\animals\obj\Debug\net6.0\animals.GeneratedMSBuildEditorConfig.editorconfig
+D:\HomeWorksSoftUni\OOP\an\animals\obj\Debug\net6.0\animals.AssemblyInfoInputs.cache
+D:\HomeWorksSoftUni\OOP\an\animals\obj\Debug\net6.0\animals.AssemblyInfo.cs
+D:\HomeWorksSoftUni\OOP\an\animals\obj\Debug\net6.0\animals.csproj.CoreCompileInputs.cache
+D:\HomeWorksSoftUni\OOP\an\animals\obj\Debug\net6.0\animals.dll
+D:\HomeWorksSoftUni\OOP\an\animals\obj\Debug\net6.0\refint\animals.dll
+D:\HomeWorksSoftUni\OOP\an\animals\obj\Debug\net6.0\animals.pdb
+D:\HomeWorksSoftUni\OOP\an\animals\obj\Debug\net6.0\animals.genruntimeconfig.cache
+D:\HomeWorksSoftUni\OOP\an\animals\obj\Debug\net6.0\ref\animals.dll

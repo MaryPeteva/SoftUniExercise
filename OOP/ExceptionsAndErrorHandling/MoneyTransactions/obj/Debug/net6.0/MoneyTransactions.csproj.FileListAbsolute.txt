@@ -1,0 +1,15 @@
+D:\HomeWorksSoftUni\OOP\ExceptionsAndErrorHandling\MoneyTransactions\bin\Debug\net6.0\MoneyTransactions.exe
+D:\HomeWorksSoftUni\OOP\ExceptionsAndErrorHandling\MoneyTransactions\bin\Debug\net6.0\MoneyTransactions.deps.json
+D:\HomeWorksSoftUni\OOP\ExceptionsAndErrorHandling\MoneyTransactions\bin\Debug\net6.0\MoneyTransactions.runtimeconfig.json
+D:\HomeWorksSoftUni\OOP\ExceptionsAndErrorHandling\MoneyTransactions\bin\Debug\net6.0\MoneyTransactions.dll
+D:\HomeWorksSoftUni\OOP\ExceptionsAndErrorHandling\MoneyTransactions\bin\Debug\net6.0\MoneyTransactions.pdb
+D:\HomeWorksSoftUni\OOP\ExceptionsAndErrorHandling\MoneyTransactions\obj\Debug\net6.0\MoneyTransactions.csproj.AssemblyReference.cache
+D:\HomeWorksSoftUni\OOP\ExceptionsAndErrorHandling\MoneyTransactions\obj\Debug\net6.0\MoneyTransactions.GeneratedMSBuildEditorConfig.editorconfig
+D:\HomeWorksSoftUni\OOP\ExceptionsAndErrorHandling\MoneyTransactions\obj\Debug\net6.0\MoneyTransactions.AssemblyInfoInputs.cache
+D:\HomeWorksSoftUni\OOP\ExceptionsAndErrorHandling\MoneyTransactions\obj\Debug\net6.0\MoneyTransactions.AssemblyInfo.cs
+D:\HomeWorksSoftUni\OOP\ExceptionsAndErrorHandling\MoneyTransactions\obj\Debug\net6.0\MoneyTransactions.csproj.CoreCompileInputs.cache
+D:\HomeWorksSoftUni\OOP\ExceptionsAndErrorHandling\MoneyTransactions\obj\Debug\net6.0\MoneyTransactions.dll
+D:\HomeWorksSoftUni\OOP\ExceptionsAndErrorHandling\MoneyTransactions\obj\Debug\net6.0\refint\MoneyTransactions.dll
+D:\HomeWorksSoftUni\OOP\ExceptionsAndErrorHandling\MoneyTransactions\obj\Debug\net6.0\MoneyTransactions.pdb
+D:\HomeWorksSoftUni\OOP\ExceptionsAndErrorHandling\MoneyTransactions\obj\Debug\net6.0\MoneyTransactions.genruntimeconfig.cache
+D:\HomeWorksSoftUni\OOP\ExceptionsAndErrorHandling\MoneyTransactions\obj\Debug\net6.0\ref\MoneyTransactions.dll

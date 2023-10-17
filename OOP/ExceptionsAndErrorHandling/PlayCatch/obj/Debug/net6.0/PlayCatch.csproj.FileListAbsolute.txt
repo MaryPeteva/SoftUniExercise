@@ -1,0 +1,15 @@
+D:\HomeWorksSoftUni\OOP\ExceptionsAndErrorHandling\PlayCatch\bin\Debug\net6.0\PlayCatch.exe
+D:\HomeWorksSoftUni\OOP\ExceptionsAndErrorHandling\PlayCatch\bin\Debug\net6.0\PlayCatch.deps.json
+D:\HomeWorksSoftUni\OOP\ExceptionsAndErrorHandling\PlayCatch\bin\Debug\net6.0\PlayCatch.runtimeconfig.json
+D:\HomeWorksSoftUni\OOP\ExceptionsAndErrorHandling\PlayCatch\bin\Debug\net6.0\PlayCatch.dll
+D:\HomeWorksSoftUni\OOP\ExceptionsAndErrorHandling\PlayCatch\bin\Debug\net6.0\PlayCatch.pdb
+D:\HomeWorksSoftUni\OOP\ExceptionsAndErrorHandling\PlayCatch\obj\Debug\net6.0\PlayCatch.csproj.AssemblyReference.cache
+D:\HomeWorksSoftUni\OOP\ExceptionsAndErrorHandling\PlayCatch\obj\Debug\net6.0\PlayCatch.GeneratedMSBuildEditorConfig.editorconfig
+D:\HomeWorksSoftUni\OOP\ExceptionsAndErrorHandling\PlayCatch\obj\Debug\net6.0\PlayCatch.AssemblyInfoInputs.cache
+D:\HomeWorksSoftUni\OOP\ExceptionsAndErrorHandling\PlayCatch\obj\Debug\net6.0\PlayCatch.AssemblyInfo.cs
+D:\HomeWorksSoftUni\OOP\ExceptionsAndErrorHandling\PlayCatch\obj\Debug\net6.0\PlayCatch.csproj.CoreCompileInputs.cache
+D:\HomeWorksSoftUni\OOP\ExceptionsAndErrorHandling\PlayCatch\obj\Debug\net6.0\PlayCatch.dll
+D:\HomeWorksSoftUni\OOP\ExceptionsAndErrorHandling\PlayCatch\obj\Debug\net6.0\refint\PlayCatch.dll
+D:\HomeWorksSoftUni\OOP\ExceptionsAndErrorHandling\PlayCatch\obj\Debug\net6.0\PlayCatch.pdb
+D:\HomeWorksSoftUni\OOP\ExceptionsAndErrorHandling\PlayCatch\obj\Debug\net6.0\PlayCatch.genruntimeconfig.cache
+D:\HomeWorksSoftUni\OOP\ExceptionsAndErrorHandling\PlayCatch\obj\Debug\net6.0\ref\PlayCatch.dll

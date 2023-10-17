@@ -1,0 +1,15 @@
+D:\HomeWorksSoftUni\OOP\CustomStack\Humans\bin\Debug\net6.0\Humans.exe
+D:\HomeWorksSoftUni\OOP\CustomStack\Humans\bin\Debug\net6.0\Humans.deps.json
+D:\HomeWorksSoftUni\OOP\CustomStack\Humans\bin\Debug\net6.0\Humans.runtimeconfig.json
+D:\HomeWorksSoftUni\OOP\CustomStack\Humans\bin\Debug\net6.0\Humans.dll
+D:\HomeWorksSoftUni\OOP\CustomStack\Humans\bin\Debug\net6.0\Humans.pdb
+D:\HomeWorksSoftUni\OOP\CustomStack\Humans\obj\Debug\net6.0\Humans.csproj.AssemblyReference.cache
+D:\HomeWorksSoftUni\OOP\CustomStack\Humans\obj\Debug\net6.0\Humans.GeneratedMSBuildEditorConfig.editorconfig
+D:\HomeWorksSoftUni\OOP\CustomStack\Humans\obj\Debug\net6.0\Humans.AssemblyInfoInputs.cache
+D:\HomeWorksSoftUni\OOP\CustomStack\Humans\obj\Debug\net6.0\Humans.AssemblyInfo.cs
+D:\HomeWorksSoftUni\OOP\CustomStack\Humans\obj\Debug\net6.0\Humans.csproj.CoreCompileInputs.cache
+D:\HomeWorksSoftUni\OOP\CustomStack\Humans\obj\Debug\net6.0\Humans.dll
+D:\HomeWorksSoftUni\OOP\CustomStack\Humans\obj\Debug\net6.0\refint\Humans.dll
+D:\HomeWorksSoftUni\OOP\CustomStack\Humans\obj\Debug\net6.0\Humans.pdb
+D:\HomeWorksSoftUni\OOP\CustomStack\Humans\obj\Debug\net6.0\Humans.genruntimeconfig.cache
+D:\HomeWorksSoftUni\OOP\CustomStack\Humans\obj\Debug\net6.0\ref\Humans.dll

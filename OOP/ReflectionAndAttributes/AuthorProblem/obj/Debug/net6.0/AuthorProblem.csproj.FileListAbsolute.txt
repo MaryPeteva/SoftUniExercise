@@ -1,0 +1,15 @@
+D:\HomeWorksSoftUni\OOP\ReflectionAndAttributes\AuthorProblem\obj\Debug\net6.0\AuthorProblem.csproj.AssemblyReference.cache
+D:\HomeWorksSoftUni\OOP\ReflectionAndAttributes\AuthorProblem\obj\Debug\net6.0\AuthorProblem.GeneratedMSBuildEditorConfig.editorconfig
+D:\HomeWorksSoftUni\OOP\ReflectionAndAttributes\AuthorProblem\obj\Debug\net6.0\AuthorProblem.AssemblyInfoInputs.cache
+D:\HomeWorksSoftUni\OOP\ReflectionAndAttributes\AuthorProblem\obj\Debug\net6.0\AuthorProblem.AssemblyInfo.cs
+D:\HomeWorksSoftUni\OOP\ReflectionAndAttributes\AuthorProblem\obj\Debug\net6.0\AuthorProblem.csproj.CoreCompileInputs.cache
+D:\HomeWorksSoftUni\OOP\ReflectionAndAttributes\AuthorProblem\bin\Debug\net6.0\AuthorProblem.exe
+D:\HomeWorksSoftUni\OOP\ReflectionAndAttributes\AuthorProblem\bin\Debug\net6.0\AuthorProblem.deps.json
+D:\HomeWorksSoftUni\OOP\ReflectionAndAttributes\AuthorProblem\bin\Debug\net6.0\AuthorProblem.runtimeconfig.json
+D:\HomeWorksSoftUni\OOP\ReflectionAndAttributes\AuthorProblem\bin\Debug\net6.0\AuthorProblem.dll
+D:\HomeWorksSoftUni\OOP\ReflectionAndAttributes\AuthorProblem\bin\Debug\net6.0\AuthorProblem.pdb
+D:\HomeWorksSoftUni\OOP\ReflectionAndAttributes\AuthorProblem\obj\Debug\net6.0\AuthorProblem.dll
+D:\HomeWorksSoftUni\OOP\ReflectionAndAttributes\AuthorProblem\obj\Debug\net6.0\refint\AuthorProblem.dll
+D:\HomeWorksSoftUni\OOP\ReflectionAndAttributes\AuthorProblem\obj\Debug\net6.0\AuthorProblem.pdb
+D:\HomeWorksSoftUni\OOP\ReflectionAndAttributes\AuthorProblem\obj\Debug\net6.0\AuthorProblem.genruntimeconfig.cache
+D:\HomeWorksSoftUni\OOP\ReflectionAndAttributes\AuthorProblem\obj\Debug\net6.0\ref\AuthorProblem.dll
