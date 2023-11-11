@@ -1,0 +1,17 @@
+D:\SoftUniExercise\EntityFrameworkCore\FootballBetting\P02_FootballBetting.Data\bin\Debug\net6.0\P02_FootballBetting.Data.deps.json
+D:\SoftUniExercise\EntityFrameworkCore\FootballBetting\P02_FootballBetting.Data\bin\Debug\net6.0\P02_FootballBetting.Data.dll
+D:\SoftUniExercise\EntityFrameworkCore\FootballBetting\P02_FootballBetting.Data\bin\Debug\net6.0\P02_FootballBetting.Data.pdb
+D:\SoftUniExercise\EntityFrameworkCore\FootballBetting\P02_FootballBetting.Data\bin\Debug\net6.0\P02_FootballBetting.Data.Models.dll
+D:\SoftUniExercise\EntityFrameworkCore\FootballBetting\P02_FootballBetting.Data\bin\Debug\net6.0\P02_FootballBetting.Data.Models.pdb
+D:\SoftUniExercise\EntityFrameworkCore\FootballBetting\P02_FootballBetting.Data\obj\Debug\net6.0\P02_FootballBetting.Data.csproj.AssemblyReference.cache
+D:\SoftUniExercise\EntityFrameworkCore\FootballBetting\P02_FootballBetting.Data\obj\Debug\net6.0\P02_FootballBetting.Data.GeneratedMSBuildEditorConfig.editorconfig
+D:\SoftUniExercise\EntityFrameworkCore\FootballBetting\P02_FootballBetting.Data\obj\Debug\net6.0\P02_FootballBetting.Data.AssemblyInfoInputs.cache
+D:\SoftUniExercise\EntityFrameworkCore\FootballBetting\P02_FootballBetting.Data\obj\Debug\net6.0\P02_FootballBetting.Data.AssemblyInfo.cs
+D:\SoftUniExercise\EntityFrameworkCore\FootballBetting\P02_FootballBetting.Data\obj\Debug\net6.0\P02_FootballBetting.Data.csproj.CoreCompileInputs.cache
+D:\SoftUniExercise\EntityFrameworkCore\FootballBetting\P02_FootballBetting.Data\obj\Debug\net6.0\P02_FootballBetting.Data.csproj.CopyComplete
+D:\SoftUniExercise\EntityFrameworkCore\FootballBetting\P02_FootballBetting.Data\obj\Debug\net6.0\P02_FootballBetting.Data.dll
+D:\SoftUniExercise\EntityFrameworkCore\FootballBetting\P02_FootballBetting.Data\obj\Debug\net6.0\refint\P02_FootballBetting.Data.dll
+D:\SoftUniExercise\EntityFrameworkCore\FootballBetting\P02_FootballBetting.Data\obj\Debug\net6.0\P02_FootballBetting.Data.pdb
+D:\SoftUniExercise\EntityFrameworkCore\FootballBetting\P02_FootballBetting.Data\obj\Debug\net6.0\ref\P02_FootballBetting.Data.dll
+D:\SoftUniExercise\EntityFrameworkCore\FootballBetting\P02_FootballBetting.Data\bin\Debug\net6.0\P02_FootballBetting.Data.runtimeconfig.json
+D:\SoftUniExercise\EntityFrameworkCore\FootballBetting\P02_FootballBetting.Data\obj\Debug\net6.0\P02_FootballBetting.Data.genruntimeconfig.cache
