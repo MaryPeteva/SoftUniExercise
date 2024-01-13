@@ -13,8 +13,20 @@
       "PackagePath": "staticwebassets\\css\\logo.png"
     },
     {
+      "Id": "C:\\Users\\User\\source\\repos\\SoftUniExercise\\FinalProject\\OnlyTools\\OnlyToolsWeb\\wwwroot\\css\\smallLogo – Копие.png",
+      "PackagePath": "staticwebassets\\css\\smallLogo – Копие.png"
+    },
+    {
       "Id": "C:\\Users\\User\\source\\repos\\SoftUniExercise\\FinalProject\\OnlyTools\\OnlyToolsWeb\\wwwroot\\css\\smallLogo.png",
       "PackagePath": "staticwebassets\\css\\smallLogo.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\SoftUniExercise\\FinalProject\\OnlyTools\\OnlyToolsWeb\\wwwroot\\css\\smallLogoFinal.png",
+      "PackagePath": "staticwebassets\\css\\smallLogoFinal.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\SoftUniExercise\\FinalProject\\OnlyTools\\OnlyToolsWeb\\wwwroot\\css\\smallLogoNoBG.png",
+      "PackagePath": "staticwebassets\\css\\smallLogoNoBG.png"
     },
     {
       "Id": "C:\\Users\\User\\source\\repos\\SoftUniExercise\\FinalProject\\OnlyTools\\OnlyToolsWeb\\wwwroot\\favicon.ico",
