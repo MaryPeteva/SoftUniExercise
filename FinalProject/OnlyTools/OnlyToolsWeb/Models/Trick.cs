@@ -14,5 +14,6 @@ namespace OnlyToolsWeb.Models
         public string Description { get; set; }
         public int Likes { get; set; }
         // when user adds tip to favourites Likes++
+        //TODO raiting rated by likes
     }
 }

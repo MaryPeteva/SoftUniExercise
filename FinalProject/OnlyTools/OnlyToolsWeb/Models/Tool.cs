@@ -17,5 +17,6 @@ namespace OnlyToolsWeb.Models
         public virtual User Owner { get; set; }
         public bool IsRented { get; set; }
         public string? ToolPictureUrl { get; set; }
+        //TODO add raiting
     }
 }

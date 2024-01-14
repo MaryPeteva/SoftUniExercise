@@ -4,6 +4,7 @@ namespace OnlyToolsWeb.Data
 {
     public class OnlyToolsDbContext :DbContext
     {
+        public OnlyToolsDbContext() { }
         public OnlyToolsDbContext(DbContextOptions<OnlyToolsDbContext> options) : base(options) 
         {
         }
@@ -15,5 +16,18 @@ namespace OnlyToolsWeb.Data
         public DbSet<UserRentedTool> UserRentedTools { get; set; }
         public DbSet<UserPublishedTip> UserPublishedTips { get; set; }
         public DbSet<Favourites> Favourites { get; set; }
+
+        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        {
+            if (!optionsBuilder.IsConfigured)
+            {
+                optionsBuilder.UseSqlServer(Configuration.ConnectionString);
+            }
+        }
+
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+           
+        }
     }
 }

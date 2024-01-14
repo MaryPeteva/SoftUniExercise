@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("OnlyToolsDatabaseConnections")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a12a76495b9f48a087e6c7a9774c401494d7c290")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0a5d195362824d33e9fcea56be96c97599305700")]
 [assembly: System.Reflection.AssemblyProductAttribute("OnlyToolsDatabaseConnections")]
 [assembly: System.Reflection.AssemblyTitleAttribute("OnlyToolsDatabaseConnections")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
