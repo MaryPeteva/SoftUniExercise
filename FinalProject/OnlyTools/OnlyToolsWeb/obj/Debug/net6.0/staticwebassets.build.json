@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "mcdeNaSo0hhVUSVWBp9ar2ERAHhPZZL7jsW3xSUCyhw=",
+  "Hash": "ltD9irnB2mvuR4uufaymi5/MZFn5w+B2o1Dn9XNUvWI=",
   "Source": "OnlyToolsWeb",
   "BasePath": "_content/OnlyToolsWeb",
   "Mode": "Default",
@@ -55,25 +55,6 @@
       "OriginalItemSpec": "C:\\Users\\User\\source\\repos\\SoftUniExercise\\FinalProject\\OnlyTools\\OnlyToolsWeb\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\OnlyToolsWeb.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\User\\source\\repos\\SoftUniExercise\\FinalProject\\OnlyTools\\OnlyToolsWeb\\wwwroot\\css\\logo.png",
-      "SourceId": "OnlyToolsWeb",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\User\\source\\repos\\SoftUniExercise\\FinalProject\\OnlyTools\\OnlyToolsWeb\\wwwroot\\",
-      "BasePath": "_content/OnlyToolsWeb",
-      "RelativePath": "css/logo.png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\logo.png"
-    },
-    {
       "Identity": "C:\\Users\\User\\source\\repos\\SoftUniExercise\\FinalProject\\OnlyTools\\OnlyToolsWeb\\wwwroot\\css\\OnlyToolsWeb.styles.css",
       "SourceId": "OnlyToolsWeb",
       "SourceType": "Discovered",
@@ -93,12 +74,12 @@
       "OriginalItemSpec": "wwwroot\\css\\OnlyToolsWeb.styles.css"
     },
     {
-      "Identity": "C:\\Users\\User\\source\\repos\\SoftUniExercise\\FinalProject\\OnlyTools\\OnlyToolsWeb\\wwwroot\\css\\smallLogo – Копие.png",
+      "Identity": "C:\\Users\\User\\source\\repos\\SoftUniExercise\\FinalProject\\OnlyTools\\OnlyToolsWeb\\wwwroot\\css\\Pictures\\logo.png",
       "SourceId": "OnlyToolsWeb",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\User\\source\\repos\\SoftUniExercise\\FinalProject\\OnlyTools\\OnlyToolsWeb\\wwwroot\\",
       "BasePath": "_content/OnlyToolsWeb",
-      "RelativePath": "css/smallLogo – Копие.png",
+      "RelativePath": "css/Pictures/logo.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -109,15 +90,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\smallLogo – Копие.png"
+      "OriginalItemSpec": "wwwroot\\css\\Pictures\\logo.png"
     },
     {
-      "Identity": "C:\\Users\\User\\source\\repos\\SoftUniExercise\\FinalProject\\OnlyTools\\OnlyToolsWeb\\wwwroot\\css\\smallLogo.png",
+      "Identity": "C:\\Users\\User\\source\\repos\\SoftUniExercise\\FinalProject\\OnlyTools\\OnlyToolsWeb\\wwwroot\\css\\Pictures\\profilePicDef.png",
       "SourceId": "OnlyToolsWeb",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\User\\source\\repos\\SoftUniExercise\\FinalProject\\OnlyTools\\OnlyToolsWeb\\wwwroot\\",
       "BasePath": "_content/OnlyToolsWeb",
-      "RelativePath": "css/smallLogo.png",
+      "RelativePath": "css/Pictures/profilePicDef.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -128,15 +109,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\smallLogo.png"
+      "OriginalItemSpec": "wwwroot\\css\\Pictures\\profilePicDef.png"
     },
     {
-      "Identity": "C:\\Users\\User\\source\\repos\\SoftUniExercise\\FinalProject\\OnlyTools\\OnlyToolsWeb\\wwwroot\\css\\smallLogoFinal.png",
+      "Identity": "C:\\Users\\User\\source\\repos\\SoftUniExercise\\FinalProject\\OnlyTools\\OnlyToolsWeb\\wwwroot\\css\\Pictures\\smallLogo – Копие.png",
       "SourceId": "OnlyToolsWeb",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\User\\source\\repos\\SoftUniExercise\\FinalProject\\OnlyTools\\OnlyToolsWeb\\wwwroot\\",
       "BasePath": "_content/OnlyToolsWeb",
-      "RelativePath": "css/smallLogoFinal.png",
+      "RelativePath": "css/Pictures/smallLogo – Копие.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -147,15 +128,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\smallLogoFinal.png"
+      "OriginalItemSpec": "wwwroot\\css\\Pictures\\smallLogo – Копие.png"
     },
     {
-      "Identity": "C:\\Users\\User\\source\\repos\\SoftUniExercise\\FinalProject\\OnlyTools\\OnlyToolsWeb\\wwwroot\\css\\smallLogoNoBG.png",
+      "Identity": "C:\\Users\\User\\source\\repos\\SoftUniExercise\\FinalProject\\OnlyTools\\OnlyToolsWeb\\wwwroot\\css\\Pictures\\smallLogo.png",
       "SourceId": "OnlyToolsWeb",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\User\\source\\repos\\SoftUniExercise\\FinalProject\\OnlyTools\\OnlyToolsWeb\\wwwroot\\",
       "BasePath": "_content/OnlyToolsWeb",
-      "RelativePath": "css/smallLogoNoBG.png",
+      "RelativePath": "css/Pictures/smallLogo.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -166,7 +147,45 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\smallLogoNoBG.png"
+      "OriginalItemSpec": "wwwroot\\css\\Pictures\\smallLogo.png"
+    },
+    {
+      "Identity": "C:\\Users\\User\\source\\repos\\SoftUniExercise\\FinalProject\\OnlyTools\\OnlyToolsWeb\\wwwroot\\css\\Pictures\\smallLogoFinal.png",
+      "SourceId": "OnlyToolsWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\User\\source\\repos\\SoftUniExercise\\FinalProject\\OnlyTools\\OnlyToolsWeb\\wwwroot\\",
+      "BasePath": "_content/OnlyToolsWeb",
+      "RelativePath": "css/Pictures/smallLogoFinal.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\Pictures\\smallLogoFinal.png"
+    },
+    {
+      "Identity": "C:\\Users\\User\\source\\repos\\SoftUniExercise\\FinalProject\\OnlyTools\\OnlyToolsWeb\\wwwroot\\css\\Pictures\\smallLogoNoBG.png",
+      "SourceId": "OnlyToolsWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\User\\source\\repos\\SoftUniExercise\\FinalProject\\OnlyTools\\OnlyToolsWeb\\wwwroot\\",
+      "BasePath": "_content/OnlyToolsWeb",
+      "RelativePath": "css/Pictures/smallLogoNoBG.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\Pictures\\smallLogoNoBG.png"
     },
     {
       "Identity": "C:\\Users\\User\\source\\repos\\SoftUniExercise\\FinalProject\\OnlyTools\\OnlyToolsWeb\\wwwroot\\favicon.ico",

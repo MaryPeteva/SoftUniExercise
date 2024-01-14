@@ -9,24 +9,28 @@
       "PackagePath": "staticwebassets\\css\\OnlyToolsWeb.styles.css"
     },
     {
-      "Id": "C:\\Users\\User\\source\\repos\\SoftUniExercise\\FinalProject\\OnlyTools\\OnlyToolsWeb\\wwwroot\\css\\logo.png",
-      "PackagePath": "staticwebassets\\css\\logo.png"
+      "Id": "C:\\Users\\User\\source\\repos\\SoftUniExercise\\FinalProject\\OnlyTools\\OnlyToolsWeb\\wwwroot\\css\\Pictures\\logo.png",
+      "PackagePath": "staticwebassets\\css\\Pictures\\logo.png"
     },
     {
-      "Id": "C:\\Users\\User\\source\\repos\\SoftUniExercise\\FinalProject\\OnlyTools\\OnlyToolsWeb\\wwwroot\\css\\smallLogo – Копие.png",
-      "PackagePath": "staticwebassets\\css\\smallLogo – Копие.png"
+      "Id": "C:\\Users\\User\\source\\repos\\SoftUniExercise\\FinalProject\\OnlyTools\\OnlyToolsWeb\\wwwroot\\css\\Pictures\\profilePicDef.png",
+      "PackagePath": "staticwebassets\\css\\Pictures\\profilePicDef.png"
     },
     {
-      "Id": "C:\\Users\\User\\source\\repos\\SoftUniExercise\\FinalProject\\OnlyTools\\OnlyToolsWeb\\wwwroot\\css\\smallLogo.png",
-      "PackagePath": "staticwebassets\\css\\smallLogo.png"
+      "Id": "C:\\Users\\User\\source\\repos\\SoftUniExercise\\FinalProject\\OnlyTools\\OnlyToolsWeb\\wwwroot\\css\\Pictures\\smallLogo – Копие.png",
+      "PackagePath": "staticwebassets\\css\\Pictures\\smallLogo – Копие.png"
     },
     {
-      "Id": "C:\\Users\\User\\source\\repos\\SoftUniExercise\\FinalProject\\OnlyTools\\OnlyToolsWeb\\wwwroot\\css\\smallLogoFinal.png",
-      "PackagePath": "staticwebassets\\css\\smallLogoFinal.png"
+      "Id": "C:\\Users\\User\\source\\repos\\SoftUniExercise\\FinalProject\\OnlyTools\\OnlyToolsWeb\\wwwroot\\css\\Pictures\\smallLogo.png",
+      "PackagePath": "staticwebassets\\css\\Pictures\\smallLogo.png"
     },
     {
-      "Id": "C:\\Users\\User\\source\\repos\\SoftUniExercise\\FinalProject\\OnlyTools\\OnlyToolsWeb\\wwwroot\\css\\smallLogoNoBG.png",
-      "PackagePath": "staticwebassets\\css\\smallLogoNoBG.png"
+      "Id": "C:\\Users\\User\\source\\repos\\SoftUniExercise\\FinalProject\\OnlyTools\\OnlyToolsWeb\\wwwroot\\css\\Pictures\\smallLogoFinal.png",
+      "PackagePath": "staticwebassets\\css\\Pictures\\smallLogoFinal.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\SoftUniExercise\\FinalProject\\OnlyTools\\OnlyToolsWeb\\wwwroot\\css\\Pictures\\smallLogoNoBG.png",
+      "PackagePath": "staticwebassets\\css\\Pictures\\smallLogoNoBG.png"
     },
     {
       "Id": "C:\\Users\\User\\source\\repos\\SoftUniExercise\\FinalProject\\OnlyTools\\OnlyToolsWeb\\wwwroot\\favicon.ico",

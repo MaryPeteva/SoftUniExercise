@@ -16,5 +16,6 @@ namespace OnlyToolsWeb.Models
         public int OwnerID { get; set; }
         public virtual User Owner { get; set; }
         public bool IsRented { get; set; }
+        public string? ToolPictureUrl { get; set; }
     }
 }

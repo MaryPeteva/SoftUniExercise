@@ -48,6 +48,7 @@ namespace OnlyToolsWeb.Models
         //Console.WriteLine(hashedPassword);// login attempt provides "input"
         //string input = Console.ReadLine();
         //Console.WriteLine(BCrypt.Net.BCrypt.Verify(input, hashedPassword));//this will  be returned in password check
+        public string? ProfilePictureUrl { get; set; }
         public virtual ICollection<UserOwnedTool>? UserTools { get; set; }
         public virtual ICollection<UserRentedTool>? UserRentedTools { get; set; }
         public virtual ICollection<UserPublishedTip>? UserTips { get; set; }

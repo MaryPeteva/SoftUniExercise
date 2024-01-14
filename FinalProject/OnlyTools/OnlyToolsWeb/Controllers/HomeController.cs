@@ -22,7 +22,22 @@ namespace OnlyToolsWeb.Controllers
         {
             return View();
         }
-
+        public IActionResult RentTools()
+        {
+            return View();
+        }
+        public IActionResult ShareTools()
+        {
+            return View();
+        }
+        public IActionResult BrowseTips()
+        {
+            return View();
+        }
+        public IActionResult ShareTips()
+        {
+            return View();
+        }
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {

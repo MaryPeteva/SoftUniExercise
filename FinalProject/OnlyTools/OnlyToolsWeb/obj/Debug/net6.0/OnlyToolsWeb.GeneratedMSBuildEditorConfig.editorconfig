@@ -18,12 +18,28 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\User\source\repos\SoftUniExercise\FinalProject\OnlyTools\OnlyToolsWeb
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/User/source/repos/SoftUniExercise/FinalProject/OnlyTools/OnlyToolsWeb/Views/Home/BrowseTips.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxCcm93c2VUaXBzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/User/source/repos/SoftUniExercise/FinalProject/OnlyTools/OnlyToolsWeb/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/User/source/repos/SoftUniExercise/FinalProject/OnlyTools/OnlyToolsWeb/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/source/repos/SoftUniExercise/FinalProject/OnlyTools/OnlyToolsWeb/Views/Home/RentTools.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxSZW50VG9vbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/source/repos/SoftUniExercise/FinalProject/OnlyTools/OnlyToolsWeb/Views/Home/ShareTips.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTaGFyZVRpcHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/source/repos/SoftUniExercise/FinalProject/OnlyTools/OnlyToolsWeb/Views/Home/ShareTools.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTaGFyZVRvb2xzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/User/source/repos/SoftUniExercise/FinalProject/OnlyTools/OnlyToolsWeb/Views/Shared/Error.cshtml]
