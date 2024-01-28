@@ -1,4 +1,4 @@
-﻿@model ShopppingList.Data.Models.Product
+﻿@model ShopppingList.Data.Models.ProductNote
 
 @{
     ViewData["Title"] = "Details";
@@ -7,7 +7,7 @@
 <h1>Details</h1>
 
 <div>
-    <h4>Product</h4>
+    <h4>ProductNote</h4>
     <hr />
     <dl class="row">
         <dt class = "col-sm-2">
@@ -17,10 +17,10 @@
             @Html.DisplayFor(model => model.Name)
         </dd>
         <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.NoteId)
+            @Html.DisplayNameFor(model => model.Product)
         </dt>
         <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.NoteId)
+            @Html.DisplayFor(model => model.Product.Name)
         </dd>
     </dl>
 </div>

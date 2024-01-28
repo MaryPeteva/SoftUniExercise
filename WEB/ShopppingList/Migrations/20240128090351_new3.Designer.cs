@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using ShopppingList.Data;
 
@@ -11,9 +12,10 @@ using ShopppingList.Data;
 namespace ShopppingList.Migrations
 {
     [DbContext(typeof(ShoppingListDbContext))]
-    partial class ShoppingListDbContextModelSnapshot : ModelSnapshot
+    [Migration("20240128090351_new3")]
+    partial class new3
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

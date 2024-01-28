@@ -12,5 +12,7 @@ namespace ShopppingList.Data.Models
         [ForeignKey(nameof(ProductId))]
         public int ProductId { get; set; }
 
+        public virtual Product Product { get; set; }
+
     }
 }

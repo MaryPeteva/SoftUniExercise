@@ -1,4 +1,4 @@
-﻿@model ShopppingList.Data.Models.Product
+﻿@model ShopppingList.Data.Models.ProductNote
 
 @{
     ViewData["Title"] = "Create";
@@ -6,7 +6,7 @@
 
 <h1>Create</h1>
 
-<h4>Product</h4>
+<h4>ProductNote</h4>
 <hr />
 <div class="row">
     <div class="col-md-4">
@@ -18,9 +18,8 @@
                 <span asp-validation-for="Name" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="NoteId" class="control-label"></label>
-                <input asp-for="NoteId" class="form-control" />
-                <span asp-validation-for="NoteId" class="text-danger"></span>
+                <label asp-for="ProductId" class="control-label"></label>
+                <select asp-for="ProductId" class ="form-control" asp-items="ViewBag.ProductId"></select>
             </div>
             <div class="form-group">
                 <input type="submit" value="Create" class="btn btn-primary" />
