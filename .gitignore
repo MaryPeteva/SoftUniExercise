@@ -1,0 +1,12 @@
+# Ignore compiled binaries
+bin/
+obj/
+
+# Ignore Visual Studio files
+.vs/
+
+# Ignore Node.js dependencies
+node_modules/
+
+# Ignore macOS system files
+.DS_Store
