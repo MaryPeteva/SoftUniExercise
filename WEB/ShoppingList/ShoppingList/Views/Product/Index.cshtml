@@ -20,24 +20,32 @@
                 <div class="card ">
                     <div class="card-body">
                         <p class="card-text">@product.Name</p>
-                        @if (product.ProductNotes.Count > 0)
+                        @if (product.ProductNotes != null && product.ProductNotes.Count > 0)
                         {
                                 <div class="card-body">
-                                    <p class="card-text">@product.ProductNotes</p>
+                                <p class="card-text">
+                                    @foreach (var note in product.ProductNotes)
+                                    {
+                                        @note.Content;
+                                    }
+                                </p>
                                 </div>
                         }
                         else
                         {
-                            <div class="d-grid gap-2">
-                                <a asp-controller="Product" asp-action="Edit" asp-route-id="@product.Id" class="btn btn-warning">Edit</a>
-                                <form class="mt-2" asp-controller="Product" asp-action="Delete" asp-route-id="@product.Id">
-                                    <div class="d-grid gap-2">
-                                        <input type="submit" value="Delete" class="btn btn-danger mb-2" />
-                                    </div>
-                                </form>
-                                <a asp-controller="ProductNote" asp-action="Add" asp-route-id="@product.Id" class="btn btn-warning">AddNote</a>
+                            <div class="card-body">
+                                <p class="card-text">No notes added yet!</p>
                             </div>
                         }
+                        <div class="d-grid gap-2">
+                            <a asp-controller="Product" asp-action="Edit" asp-route-id="@product.Id" class="btn btn-warning">Edit</a>
+                            <form class="mt-2" asp-controller="Product" asp-action="Delete" asp-route-id="@product.Id">
+                                <div class="d-grid gap-2">
+                                    <input type="submit" value="Delete" class="btn btn-danger mb-2" />
+                                </div>
+                            </form>
+                            <a asp-controller="ProductNote" asp-action="Add" asp-route-prodId="@product.Id" class="btn btn-warning">AddNote</a>
+                        </div>
                     </div>
                 </div>
             </div>

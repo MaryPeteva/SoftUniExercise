@@ -1,83 +1,43 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using ShoppingList.Core.Contracts;
+using ShoppingList.Core.Models;
+using System.Threading.Tasks;
 
 namespace ShoppingList.Controllers
 {
     public class ProductNoteController : Controller
     {
-        // GET: ProductNoteController
-        public ActionResult Index()
+        private readonly IProductNotesService _productNotesService;
+
+        public ProductNoteController(IProductNotesService productNotesService)
         {
-            return View();
+            _productNotesService = productNotesService;
         }
 
-        // GET: ProductNoteController/Details/5
-        public ActionResult Details(int id)
+        [HttpGet]
+        public IActionResult Index()
         {
-            return View();
+            return RedirectToAction(nameof(ProductController.Index));
         }
 
-        // GET: ProductNoteController/Create
-        public ActionResult Create()
+        [HttpGet]
+        public IActionResult Add()
         {
-            return View();
+            var note = new ProductNotesModel();
+            return View(note);
         }
 
-        // POST: ProductNoteController/Create
         [HttpPost]
-        [ValidateAntiForgeryToken]
-        public ActionResult Create(IFormCollection collection)
+        public async Task<IActionResult> Add(int prodId, string content)
         {
-            try
+            if (!ModelState.IsValid)
             {
-                return RedirectToAction(nameof(Index));
+                return View(nameof(Index));
             }
-            catch
-            {
-                return View();
-            }
-        }
 
-        // GET: ProductNoteController/Edit/5
-        public ActionResult Edit(int id)
-        {
-            return View();
-        }
-
-        // POST: ProductNoteController/Edit/5
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public ActionResult Edit(int id, IFormCollection collection)
-        {
-            try
-            {
-                return RedirectToAction(nameof(Index));
-            }
-            catch
-            {
-                return View();
-            }
-        }
-
-        // GET: ProductNoteController/Delete/5
-        public ActionResult Delete(int id)
-        {
-            return View();
-        }
-
-        // POST: ProductNoteController/Delete/5
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public ActionResult Delete(int id, IFormCollection collection)
-        {
-            try
-            {
-                return RedirectToAction(nameof(Index));
-            }
-            catch
-            {
-                return View();
-            }
+            await _productNotesService.AddProductNoteAsync(prodId, content);
+            return RedirectToAction(nameof(ProductController.Index), "Product");
         }
     }
 }
