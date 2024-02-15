@@ -1,6 +1,4 @@
-﻿using Microsoft.AspNetCore.Identity;
-using System.ComponentModel.DataAnnotations;
-using System.ComponentModel.DataAnnotations.Schema;
+﻿using System.ComponentModel.DataAnnotations;
 using static ForumApp.Infrastructure.Constants.PostValidations;
 
 namespace ForumApp.Infrastructure.Data.Models
@@ -15,12 +13,5 @@ namespace ForumApp.Infrastructure.Data.Models
         [Required]
         [MaxLength(PostContentMaxLen)]
         public string Content { get; set; }
-
-        [Required]
-        [ForeignKey(nameof(PosterId))]
-        public int PosterId { get; set; }
-
-        [Required]
-        public virtual IdentityUser Poster { get; set; } = null!;
     }
 }
