@@ -7,7 +7,7 @@ using static ForumApp.Infrastructure.Constants.ErrorMessages;
 
 namespace ForumApp.Core.Services
 {
-    public class PostServices:IPostService
+    public class PostServices : IPostService
     {
         private readonly ForumAppDbContext context;
 
@@ -18,7 +18,7 @@ namespace ForumApp.Core.Services
 
         public async Task AddPostAsync(PostModel post)
         {
-            var newPost = new Post() 
+            var newPost = new Post()
             {
                 Title = post.Title,
                 Content = post.Content,
@@ -29,8 +29,8 @@ namespace ForumApp.Core.Services
 
         public async Task DeletePosttAsync(int id)
         {
-            var post  = await context.Posts.FindAsync(id);
-            if (post != null) 
+            var post = await context.Posts.FindAsync(id);
+            if (post != null)
             {
                 throw new ArgumentException(invalidPost);
             }
@@ -56,7 +56,7 @@ namespace ForumApp.Core.Services
         {
             var post = await context.Posts.FindAsync(id);
 
-            if(post == null)
+            if (post == null)
             {
                 throw new ArgumentException(invalidPost);
             }
