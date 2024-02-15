@@ -30,7 +30,7 @@ namespace ForumApp.Core.Services
         public async Task DeletePosttAsync(int id)
         {
             var post  = await context.Posts.FindAsync(id);
-            if (post != null) 
+            if (post == null) 
             {
                 throw new ArgumentException(invalidPost);
             }
